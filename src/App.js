@@ -1,9 +1,14 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Link} from 'react-router-dom'
+// Route,
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import './App.css';
-import { Navbar } from 'react-bootstrap';
+import NavbarBrand from 'react-bootstrap/NavbarBrand';
+import NavbarToggle from 'react-bootstrap/NavbarToggle';
+import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
+
 
 class App extends React.Component{
 
@@ -26,7 +31,7 @@ class App extends React.Component{
       
       },
       contact: {
-        title: 'Lets Chat',
+        title: 'Let\'s Chat',
         
       }
     }
@@ -37,10 +42,19 @@ class App extends React.Component{
     <Router>
       <Container className="p-0" fluid={true}>
 
-        <Navbar>
-        
+        <Navbar className="border-bottom" bg="transparent" expand="lg">
+         <NavbarBrand>Jonathan Bleibdrey</NavbarBrand>
+
+         <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
+          <NavbarCollapse id="navbar-toggle" >
+            <Nav className="ml-auto">
+              <Link className='nav-link' to="/">Home</Link>
+              <Link className='nav-link' to="/about">About</Link>
+              <Link className='nav-link' to="/contact">Contact</Link>
+            </Nav>
+          </NavbarCollapse>
         </Navbar>
-      <p>Hi from container</p>
+
       </Container>
     </Router>
     );
