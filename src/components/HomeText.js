@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 
 
 
-function Hero(props) {
+function HomeText(props) {
     return (
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
@@ -22,4 +22,4 @@ function Hero(props) {
     )
 }
 
-export default Hero
+export default HomeText
