@@ -28,8 +28,8 @@ class App extends React.Component{
       ],
       home: {
         title: 'Open Your Mind',
-        subTitle: 'Projects',
-        text:'Checkout my projects below'
+        subTitle: 'Projects that add value to others',
+        text:'Checkout it out below'
       },
       about: {
         title: 'About Me',
