@@ -4,6 +4,7 @@ function AboutPage(props) {
     return (
         <div>
             <p>About works!</p>
+            <p>About works!</p>
         </div>
     )
 }
