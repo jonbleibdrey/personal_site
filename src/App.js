@@ -9,6 +9,8 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 
+import Footer from './components/Footer'
+
 
 class App extends React.Component{
 
@@ -43,7 +45,7 @@ class App extends React.Component{
       <Container className="p-0" fluid={true}>
 
         <Navbar className="border-bottom" bg="transparent" expand="lg">
-         <NavbarBrand>Jonathan Bleibdrey</NavbarBrand>
+         <NavbarBrand>Jonathan Robert Bleibdrey</NavbarBrand>
 
          <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
           <NavbarCollapse id="navbar-toggle" >
@@ -54,6 +56,7 @@ class App extends React.Component{
             </Nav>
           </NavbarCollapse>
         </Navbar>
+        <Footer/>
 
       </Container>
     </Router>
