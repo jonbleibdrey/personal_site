@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import briefcase  from '../assets/images/briefcase.PNG'
-import candy  from '../assets/images/candy.PNG'
-import shoe  from '../assets/images/shoe.PNG'
+import linkedin  from '../assets/images/linkedin.PNG'
+import github  from '../assets/images/github.PNG'
+import jon  from '../assets/images/jon.PNG'
 import Card from '../components/Card'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -15,8 +15,8 @@ export class Carousel extends Component {
                 {
                     id:0,
                     title: "Linked in",
-                    subTitle: "check out my resume",
-                    imgSrc: briefcase,
+                    subTitle: "Check out credentials.",
+                    imgSrc: linkedin,
                     link: "https://www.linkedin.com/mwlite/in/jonathan-bleibdrey-4032171b9",
                     selected: false
 
@@ -24,8 +24,8 @@ export class Carousel extends Component {
                 {
                     id:1,
                     title: "Github",
-                    subTitle: "check out what i have made",
-                    imgSrc: candy,
+                    subTitle: "Check out what i have made.",
+                    imgSrc: github,
                     link: "https://github.com/jonbleibdrey",
                     selected: false
 
@@ -33,8 +33,8 @@ export class Carousel extends Component {
                 {
                     id:2,
                     title: "Facebook",
-                    subTitle: "check out my social media",
-                    imgSrc: shoe,
+                    subTitle: "Check out social media.",
+                    imgSrc: jon,
                     link: "https://www.facebook.com/jbleibdrey/",
                     selected: false
 
