@@ -50,7 +50,7 @@ export class Carousel extends Component {
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
-            if(item.id != id) {
+            if(item.id !== id) {
                 item.selected = false
             }
         })
