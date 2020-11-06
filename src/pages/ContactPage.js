@@ -19,6 +19,24 @@ class ContactPage extends Component {
         }
     }
 
+    handleChange = (event) => {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.setState({
+            [name]: value
+        })
+    }
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+
+        this.setState({
+            disabled: true,
+        })
+    }
+
     render() {
         return (
             <div>
@@ -27,7 +45,7 @@ class ContactPage extends Component {
                 <Content>
             
                 </Content>
-                    <Form>
+                    <Form onSubmit={this.handSubmit}>
 
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>
