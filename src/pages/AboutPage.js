@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero from '../'
 import HomeText from '../components/HomeText'
 import Content from '../components/Content'
 import { Container } from 'react-bootstrap'
