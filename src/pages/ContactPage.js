@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import Axios from 'axios';
 
 class ContactPage extends Component {
 
@@ -36,6 +37,13 @@ class ContactPage extends Component {
 
         this.setState({
             disabled: true
+        });
+
+        Axios.post('/api/email', this.state)
+        .then(res => {
+            this.setState({
+                
+            })
         })
     }
 
