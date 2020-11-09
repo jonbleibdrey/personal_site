@@ -42,9 +42,9 @@ class ContactPage extends Component {
             console.log(error.text);
         });
 
-        // this.setState({
-        //     disabled: true
-        // });
+        this.setState({
+            disabled: true
+        });
     }
 
     render() {
