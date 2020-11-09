@@ -35,16 +35,16 @@ class ContactPage extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        emailjs.sendForm('gmail', 'template_gbek2ba', e.target, 'user_Uy05AImF3eY3v66Dqkz6e')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
 
-        this.setState({
-            disabled: true
-        });
+        // this.setState({
+        //     disabled: true
+        // });
     }
 
     render() {
@@ -57,7 +57,7 @@ class ContactPage extends Component {
                 </Content>
                     <Row className="justify-content-center py-5">
                         <Col xs="7">
-                        <Form onSubmit={this.handSubmit}>
+                        <Form onSubmit={this.handleSubmit}>
                         <Form.Group >
                             <Form.Label  htmlFor="full-name">Full Name</Form.Label>
                                 <Form.Control  id="full-name" name="name" type="text" placeholder="Enter full name" value={this.state.name} onChange={this.handleChange}/>
