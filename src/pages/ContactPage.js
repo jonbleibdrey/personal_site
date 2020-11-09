@@ -41,9 +41,23 @@ class ContactPage extends Component {
 
         Axios.post('/api/email', this.state)
         .then(res => {
+            if(res.data.success){
             this.setState({
-                
-            })
+                disabled: false,
+                emailSent: true
+            });
+        } else {
+            this.setState({
+                disabled: false,
+                emailSent: false
+            });
+          }
+        })
+        .catch(err => {
+            this.setState({
+                disabled: false,
+                emailSent: false
+            });
         })
     }
 
