@@ -9,7 +9,7 @@ function HomePage(props) {
         <div>
         <HomeText title={props.title} subTitle={props.subTitle} text={props.text}/>  
         <Row className="justify-content-center py-5">
-            <Col xs="7">
+            <Col xs="8">
                 <Carousel/>
             </Col>
         </Row>
