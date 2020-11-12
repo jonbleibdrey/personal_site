@@ -28,9 +28,8 @@ const PortfolioPage = (props) => {
                 <a href="https://github.com/jonbleibdrey/robot_maker"> <img className="g-card-image"  src={Robot}/> </a>
                 </p>
                 </li>
-               
+                <br/>
                 <li>
-                
                 <p>
                 Food Truck Review is my Rails portfolio project for the Flatiron coding bootcamp. 
                 It is an application for users to view, add, and reviewing food trucks.
@@ -39,7 +38,7 @@ const PortfolioPage = (props) => {
                 <a href="https://github.com/jonbleibdrey/rails_food_truck_review"> <img className="g-card-image"  src={Foodtruck}/> </a>
                 </p>
                 </li>
-
+                <br/>
                 <li>
                 
                 <p>
