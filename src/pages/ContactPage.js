@@ -60,17 +60,17 @@ class ContactPage extends Component {
                         <Form onSubmit={this.handleSubmit}>
                         <Form.Group >
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>
-                                <Form.Control className="shadow-sm p-3 bg-white rounded"  id="full-name" name="name" type="text" placeholder="Enter full name" value={this.state.name} onChange={this.handleChange}/>
+                                <Form.Control className="shadow-sm p-3 bg-white rounded rounded-pill"  id="full-name" name="name" type="text" placeholder="Enter full name" value={this.state.name} onChange={this.handleChange}/>
                         </Form.Group>
 
                         <Form.Group>
                             <Form.Label htmlFor="email">Email</Form.Label>
-                                <Form.Control className="shadow-sm p-3 bg-white rounded" id="email" name="email" type="email" placeholder="Enter email" value={this.state.email} onChange={this.handleChange}/>
+                                <Form.Control className="shadow-sm p-3 bg-white rounded rounded-pill" id="email" name="email" type="email" placeholder="Enter email" value={this.state.email} onChange={this.handleChange}/>
                         </Form.Group>
 
                         <Form.Group>
                             <Form.Label htmlFor="message">Message</Form.Label>
-                                <Form.Control className="shadow-sm p-3 bg-white rounded" id="message" name="message" as="textarea" rows="4" placeholder="Leave a message" value={this.state.message} onChange={this.handleChange}/>
+                                <Form.Control className="shadow-sm p-3  bg-white rounded" id="message" name="message" as="textarea" rows="4" placeholder="Leave a message" value={this.state.message} onChange={this.handleChange}/>
                         </Form.Group>
 
                         <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
