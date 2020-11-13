@@ -42,7 +42,7 @@ class App extends React.Component{
         
       },
       portfolio: {
-        title: 'Check out my work',
+        title: 'Check out my projects.',
       }
     }
   }
