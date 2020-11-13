@@ -58,7 +58,7 @@ class ContactPage extends Component {
                     <Row className="justify-content-center py-5">
                         <Col xs="7">
                         <Form onSubmit={this.handleSubmit}>
-                        <Form.Group >
+                        <Form.Group className="shadow-sm" >
                             <Form.Label  htmlFor="full-name">Full Name</Form.Label>
                                 <Form.Control  id="full-name" name="name" type="text" placeholder="Enter full name" value={this.state.name} onChange={this.handleChange}/>
                         </Form.Group>
