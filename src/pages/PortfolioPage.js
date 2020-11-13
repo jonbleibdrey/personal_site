@@ -25,7 +25,7 @@ const PortfolioPage = (props) => {
                 The frontend is built with React/Redux, and the backend is built with a Rails API. 
                 I used this project as an opportunity to practice with understanding React and Redux, maintaining page context through react-router-dom, and managing the flow of data between a decoupled frontend and backend.
                 <br/>
-                <a href="https://github.com/jonbleibdrey/robot_maker"> <img className="g-card-image"  src={Robot}/> </a>
+                <a href="https://github.com/jonbleibdrey/robot_maker"> <img className="g-card-image"  src={Robot} alt='robotmaker app'/> </a>
                 </p>
                 </li>
                 <br/>
@@ -35,7 +35,7 @@ const PortfolioPage = (props) => {
                 It is an application for users to view, add, and reviewing food trucks.
                 In this project, I tried Test Driven Development for the first time, implemented dynamic SQL searching capability, and integrated GitHub oauth.
                 <br/>
-                <a href="https://github.com/jonbleibdrey/rails_food_truck_review"> <img className="g-card-image"  src={Foodtruck}/> </a>
+                <a href="https://github.com/jonbleibdrey/rails_food_truck_review"> <img className="g-card-image"  src={Foodtruck} alt='foodtruck app'/> </a>
                 </p>
                 </li>
                 <br/>
@@ -46,7 +46,7 @@ const PortfolioPage = (props) => {
                 It's meant to demonstrate my competence with the Sinatra web framework. 
                 I built a journal application for managing users journals and if you wanted to share with other people you could do that also.
                 <br/>
-                <a href="https://github.com/jonbleibdrey/the_spiritual_thought"> <img className="g-card-image" src={Journal}/> </a>
+                <a href="https://github.com/jonbleibdrey/the_spiritual_thought"> <img className="g-card-image" src={Journal} alt='journal app'/> </a>
                 </p>
                 </li>
                 <br/>
