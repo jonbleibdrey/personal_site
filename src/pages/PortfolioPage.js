@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Foodtruck from "../assets/images/foodtruck.png";
 import Robot from "../assets/images/robot.png";
+import President from "../assets/images/president.png";
 import Journal from "../assets/images/journal.png";
 
 const PortfolioPage = (props) => {
@@ -19,12 +20,10 @@ const PortfolioPage = (props) => {
                 <ol>
                 <li>
                 <p>
-                Robot Maker is an application for kids, particularly in COVID times, to build robots and parts. 
-                Users can create robots and view robots. 
-                The frontend is built with React/Redux, and the backend is built with a Rails API. 
-                I used this project as an opportunity to practice with understanding React and Redux, maintaining page context through react-router-dom, and managing the flow of data between a decoupled frontend and backend.
+                Pres-inder is an application for people to vote but through tinder like swipe motion .Most of my app are surrounded around COVID times, to help the people stay safe and add value. 
+                
                 <br/>
-                <a href="https://github.com/jonbleibdrey/robot_maker"> <img className="g-card-image"  src={Robot} alt='robotmaker app'/> </a>
+                <a href="https://tinder-clone-9d53e.web.app/"> <img className="g-card-image"  src={President} alt='tinder clone app'/> </a>
                 </p>
                 </li>
                 <br/>
