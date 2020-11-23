@@ -20,8 +20,10 @@ const PortfolioPage = (props) => {
                 <ol>
                 <li>
                 <p>
-                Pres-inder is an application for people to vote but through tinder like swipe motion .Most of my app are surrounded around COVID times, to help the people stay safe and add value. 
-                
+                Pres-inder is an application for people to vote but through tinder like swipe motion. Most of my app are surrounded around COVID times, to help the people stay safe and add value to the community of politics. 
+                You can message in between user's and swipe through your favorite presidents. 
+                The frontend is built with React, and the backend is built with Firebase. 
+                Built this project to practice/understand more about React, Material-ui and to learn Firebase software.
                 <br/>
                 <a href="https://tinder-clone-9d53e.web.app/"> <img className="g-card-image"  src={President} alt='tinder clone app'/> </a>
                 </p>
