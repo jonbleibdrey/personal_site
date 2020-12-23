@@ -46,7 +46,6 @@ export class Carousel extends Component {
 
     handleCardClick = (id,card) => {
         let items = [...this.state.items];
-
         items[id].selected = items[id].selected ? false : true;
 
         items.forEach(item => {
@@ -69,9 +68,9 @@ export class Carousel extends Component {
     render() {
         return (
             <Container fluid={true}>
-             <Row className="justify-content-around">
-                {this.makeItems(this.state.items)}
-             </Row>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
             </Container>
         )
     }

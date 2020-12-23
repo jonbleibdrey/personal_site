@@ -49,33 +49,27 @@ class App extends React.Component{
 
   render() {
     return (
-    <Router>
-      <Container className="p-0" fluid={true}>
-
-        <Navbar className="border-bottom" bg="transparent" expand="lg">
-         <NavbarBrand>Jonathan Robert Bleibdrey</NavbarBrand>
-
-         <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
-          <NavbarCollapse id="navbar-toggle" >
-            <Nav className="ml-auto">
-              <Link className='nav-link' to="/">Home</Link>
-              <Link className='nav-link' to="/about">About</Link>
-              <Link className='nav-link' to="/portfolio">Portfolio</Link>
-              <Link className='nav-link' to="/contact">Contact</Link>
-
-            </Nav>
-          </NavbarCollapse>
-        </Navbar>
-
-        <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> }/>
-        <Route path="/about" render={() => <AboutPage title={this.state.about.title} /> }/>
-        <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} /> }/>
-        <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} /> }/>
-        <Footer/>
-       
-
-      </Container>
-    </Router>
+      <Router>
+        <Container className="p-0" fluid={true}>
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <NavbarBrand>Jonathan Robert Bleibdrey</NavbarBrand>
+              <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
+                <NavbarCollapse id="navbar-toggle" >
+                  <Nav className="ml-auto">
+                    <Link className='nav-link' to="/">Home</Link>
+                    <Link className='nav-link' to="/about">About</Link>
+                    <Link className='nav-link' to="/portfolio">Portfolio</Link>
+                    <Link className='nav-link' to="/contact">Contact</Link>
+                  </Nav>
+                </NavbarCollapse>
+          </Navbar>
+            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> }/>
+            <Route path="/about" render={() => <AboutPage title={this.state.about.title} /> }/>
+            <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} /> }/>
+            <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} /> }/>
+          <Footer/>
+          </Container>
+      </Router>
     );
   }
 }
