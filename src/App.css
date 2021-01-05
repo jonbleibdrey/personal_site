@@ -38,5 +38,8 @@
 }
 
 .images__homepage{
-  padding: 0px 140px;
+  /* padding: 0px 140px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
