@@ -30,8 +30,8 @@ class App extends React.Component{
       ],
       home: {
         title: 'Welcome to: NOW!',
-        subTitle: 'Software Engineer by day, spirtual person by night.',
-        text:' I make projects that make a difference'
+        subTitle: 'Software Engineer Extraordinaire',
+        text:' I make projects that hopefully make a difference in the world.'
       },
       about: {
         title: 'About Me',

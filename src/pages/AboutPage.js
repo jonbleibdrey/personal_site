@@ -13,6 +13,7 @@ function AboutPage(props) {
             <Col xs="9">
                 <Content>
                     <Container>
+                        
                         <p>Hello, my name is Jonathan. I'm a full stack engineer with experience in Ruby, Rails, Javascript, React and Redux.</p>  
               
                         <p>My dream is to show people that we are naturally left and right brain, that we have the capability to be smart and creative. </p>  
