@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row'
 import Foodtruck from "../assets/images/foodtruck.png";
 import Robot from "../assets/images/robot.png";
 import President from "../assets/images/president.png";
+import Google from "../assets/images/google.png";
 import Journal from "../assets/images/journal.png";
 
 const PortfolioPage = (props) => {
@@ -18,6 +19,17 @@ const PortfolioPage = (props) => {
                         <Content>
                              <Container>
                                 <ol>
+                                    <li>
+                                        <p>
+                                        created a fake google a replica of google to test my skill of react and firebase learning.
+                                        You can search using the google api and has clickable links. 
+                                        The frontend is built with React, and the backend is built with Firebase. 
+                                        Built this project to understand more about React, redux, css and to learn Firebase software.
+                                        <br/>
+                                            <a href="https://fake-fun.web.app"> <img className="g-card-image"  src={Google} alt='google app'/> </a>
+                                        </p>
+                                    </li>
+                                <br/>
                                     <li>
                                         <p>
                                         Pres-inder is an application for people to vote but through tinder like swipe motion. Most of my app are surrounded around COVID times, to help the people stay safe and add value to the community of politics. 
