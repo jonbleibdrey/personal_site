@@ -20,9 +20,9 @@ function AboutPage(props) {
                
                         <p>I'm constantly learning new things. currently those things include gaining more experience with Javascript, React and Redux</p>  
                
-                        <p>My last couple of projects, where based on the economics of where I think the world is going, during the Covid-19 period. You can find them<a style={{display: "table-cell"}} href="https://github.com/jonbleibdrey" target="_blank"> here. </a></p>  
+                        <p>My last couple of projects, where based on the economics of where I think the world is going, during the Covid-19 period. You can find them<a style={{display: "table-cell"}} href="https://github.com/jonbleibdrey" target="_blank" rel="noreferrer"> here. </a></p>  
                
-                        <p>When I'm not learning something new chances are I'm creating some type of art. Which you can find photography <a style={{display: "table-cell"}} href="https://www.instagram.com/johnnyb.experience/" target="_blank"> here. </a> or drawings <a style={{display: "table-cell"}} href="https://www.instagram.com/johnnyb.exploration/" target="_blank"> here. </a> </p>  
+                        <p>When I'm not learning something new chances are I'm creating some type of art. Which you can find photography <a style={{display: "table-cell"}} href="https://www.instagram.com/johnnyb.experience/" target="_blank" rel="noreferrer"> here. </a> or drawings <a style={{display: "table-cell"}} href="https://www.instagram.com/johnnyb.exploration/" target="_blank" rel="noreferrer"> here. </a> </p>  
                     </Container>
                </Content>
             </Col>
