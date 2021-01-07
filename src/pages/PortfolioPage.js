@@ -44,7 +44,7 @@ const PortfolioPage = (props) => {
                                     <li>
                                         <p>
                                         Robot Maker is an application for kids, particularly in COVID times, to build robots and parts. 
-                                        Users can create robots and view robots. 
+                                        Users can create robots and view robots. I also built this to remind myself not to take it to serious and have fun with what i build. 
                                         The frontend is built with React/Redux, and the backend is built with a Rails API. 
                                         I used this project as an opportunity to practice with understanding React and Redux, maintaining page context through react-router-dom, and managing the flow of data between a decoupled frontend and backend.
                                         <br/>
