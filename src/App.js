@@ -69,11 +69,11 @@ class App extends React.Component {
               )}
             />
           </Switch>
-          <Footer />
         </Container>
         <AboutPage name="aboutPage" />
         <PortfolioPage  name="portfolioPage " />
         <ContactPage name="contactPage" />
+          <Footer />
       </Router>
     );
   }

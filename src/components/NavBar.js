@@ -4,7 +4,7 @@ import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
@@ -12,15 +12,20 @@ const NavBar = () => {
       <Navbar className="border-bottom" bg="transparent" expand="lg">
         <NavbarBrand>Jonathan Robert Bleibdrey</NavbarBrand>
         <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
-        <NavbarCollapse id="navbar-toggle">
+        <NavbarCollapse className="justify-content-end p-4" id="navbar-toggle">
           <Nav className="ml-auto">
             <Link
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={50}
               duration={500}
               to="homePage"
+              style={{
+                padding: "10px",
+                border: "none",
+                color: "black",
+              }}
             >
               Home
             </Link>
@@ -28,9 +33,14 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={150}
               duration={500}
               to="aboutPage"
+              style={{
+                padding: "10px",
+                border: "none",
+                color: "black",
+              }}
             >
               About
             </Link>
@@ -38,9 +48,14 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={100}
               duration={500}
               to="portfolioPage"
+              style={{
+                padding: "10px",
+                border: "none",
+                color: "black",
+              }}
             >
               Portfolio
             </Link>
@@ -48,9 +63,14 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={100}
               duration={500}
               to="contactPage"
+              style={{
+                padding: "10px",
+                border:"none",
+                color:"black"
+              }}
             >
               Contact
             </Link>
