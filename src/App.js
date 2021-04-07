@@ -21,9 +21,9 @@ class App extends React.Component {
         { title: "Portfolio", path: "/portfolio" },
       ],
       home: {
-        title: "Welcome to: NOW!",
-        subTitle: "Software Engineer Extraordinaire",
-        text: " I make projects that hopefully make a difference in the world.",
+        title: "Welcome to: The present moment!",
+        subTitle: "My name is Jonathan Bleibdrey",
+        text: " I make things look simple but, useful. kinda like life.",
       },
       about: {
         title: "About Me",
@@ -71,9 +71,9 @@ class App extends React.Component {
           </Switch>
         </Container>
         <AboutPage name="aboutPage" />
-        <PortfolioPage  name="portfolioPage " />
+        <PortfolioPage name="portfolioPage " />
         <ContactPage name="contactPage" />
-          <Footer />
+        <Footer />
       </Router>
     );
   }

@@ -13,13 +13,23 @@ import { Jumbotron } from "react-bootstrap";
 const NavBar = () => {
   return (
     <div>
-      <Navbar className="border-bottom"  expand="lg"  style={{
-          boxShadow: "0px 30px 100px -30px gray", borderRadius:"20px", margin:"1%"
-        }}>
+      <Navbar
+        className="border-bottom"
+        expand="lg"
+        style={{
+          boxShadow: "0px 30px 100px -30px gray",
+          borderRadius: "20px",
+          margin: "1%",
+        }}
+      >
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
           <h1
             className="display-5 font-weight-bolder"
-            style={{ marginTop: "30px", fontFamily:"monospace", marginLeft:"50px" }}
+            style={{
+              marginTop: "30px",
+              fontFamily: "monospace",
+              marginLeft: "50px",
+            }}
           >
             JONATHAN BLEIBDREY
           </h1>
@@ -31,7 +41,7 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={120}
               duration={500}
               to="homePage"
               style={{
@@ -47,8 +57,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={150}
-              duration={500}
+              offset={70}
+              duration={1000}
               to="aboutPage"
               style={{
                 padding: "10px",
@@ -63,8 +73,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={100}
-              duration={500}
+              offset={300}
+              duration={1500}
               to="portfolioPage"
               style={{
                 padding: "10px",
@@ -79,8 +89,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={100}
-              duration={500}
+              offset={130}
+              duration={2000}
               to="contactPage"
               style={{
                 padding: "10px",
