@@ -13,11 +13,31 @@ import ReadByHumans from "../assets/images/readByHumans.png";
 
 const PortfolioPage = (props) => {
   return (
-    <div id="portfolioPage" >
+    <div id="portfolioPage" style={{backgroundColor:"white", padding:"3%"}}>
+      <div style={{
+            color: "black",
+            backgroundColor:"red",
+            margin: "5%",
+            marginBottom: "10%",
+            fontFamily: "monospace",
+            boxShadow: "0px 15px 70px -7px gray",
+            borderRadius: "20px",
+        }}>
       <HomeText title={props.title} />
       <Row className="justify-content-center py-1">
         <Col xs="9">
           <Content>
+          <div style={{
+          color: "black",
+          backgroundColor:"white",
+          margin: "5%",
+          padding: "10%",
+          marginBottom: "15%",
+          fontFamily: "monospace",
+          boxShadow: "10px 20px",
+          borderRadius: "20px",
+          fontSize:"35px"
+        }}>portfolio page</div>
             <Container>
               <ol>
                 <li>
@@ -188,6 +208,7 @@ const PortfolioPage = (props) => {
           </Content>
         </Col>
       </Row>
+      </div>
     </div>
   );
 };

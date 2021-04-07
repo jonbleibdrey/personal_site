@@ -47,12 +47,32 @@ class ContactPage extends Component {
 
     render() {
         return (
-            <div id="contactPage" >
+            <div id="contactPage" style={{backgroundColor:"white", padding:"3%"}}>
+                <div style={{
+            color: "black",
+            backgroundColor:"yellow",
+            margin: "5%",
+            marginBottom: "10%",
+            fontFamily: "monospace",
+            boxShadow: "0px 15px 70px -7px gray",
+            borderRadius: "20px",
+        }}>
                 <HomeText title={this.props.title}/>
                 <Content>
                 </Content>
                     <Row className="justify-content-center py-5">
                         <Col xs="7">
+                <div style={{
+          color: "black",
+          backgroundColor:"white",
+          margin: "5%",
+          padding: "10%",
+          marginBottom: "15%",
+          fontFamily: "monospace",
+          boxShadow: "10px 20px",
+          borderRadius: "20px",
+          fontSize:"35px"
+        }}>Contact page</div>
                             <Form onSubmit={this.handleSubmit}>
                                 <Form.Group >
                                     <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -77,6 +97,7 @@ class ContactPage extends Component {
                             </Form>
                         </Col>
                     </Row>
+                    </div>
             </div>
         )
     }

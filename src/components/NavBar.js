@@ -13,11 +13,13 @@ import { Jumbotron } from "react-bootstrap";
 const NavBar = () => {
   return (
     <div>
-      <Navbar className="border-bottom" bg="transparent" expand="lg">
+      <Navbar className="border-bottom"  expand="lg"  style={{
+          boxShadow: "0px 30px 100px -30px gray", borderRadius:"20px", margin:"1%"
+        }}>
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
           <h1
             className="display-5 font-weight-bolder"
-            style={{ marginTop: "30px" }}
+            style={{ marginTop: "30px", fontFamily:"monospace", marginLeft:"50px" }}
           >
             JONATHAN BLEIBDREY
           </h1>
