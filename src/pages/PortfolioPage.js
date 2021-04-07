@@ -13,7 +13,7 @@ import ReadByHumans from "../assets/images/readByHumans.png";
 
 const PortfolioPage = (props) => {
   return (
-    <div>
+    <div id="portfolioPage" >
       <HomeText title={props.title} />
       <Row className="justify-content-center py-1">
         <Col xs="9">

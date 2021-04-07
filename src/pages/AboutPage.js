@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row'
 
 function AboutPage(props) {
     return (
-        <div>
+        <div id="aboutPage" >
             <HomeText title={props.title}/>
             <Row className="justify-content-center py-5">
             <Col xs="9">

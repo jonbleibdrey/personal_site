@@ -7,7 +7,7 @@ import "../App.css";
 
 function HomePage(props) {
   return (
-    <div>
+    <div id="homePage">
       <HomeText
         title={props.title}
         subTitle={props.subTitle}

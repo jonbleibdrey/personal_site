@@ -47,7 +47,7 @@ class ContactPage extends Component {
 
     render() {
         return (
-            <div>
+            <div id="contactPage" >
                 <HomeText title={this.props.title}/>
                 <Content>
                 </Content>
