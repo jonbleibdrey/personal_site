@@ -1,16 +1,27 @@
 import React from "react";
-import NavbarBrand from "react-bootstrap/NavbarBrand";
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-scroll";
+import { AiFillHome } from "react-icons/ai";
+import { BsFillPersonFill } from "react-icons/bs";
+import { FaBookOpen } from "react-icons/fa";
+import { MdContactMail } from "react-icons/md";
+import { Jumbotron } from "react-bootstrap";
 
 const NavBar = () => {
   return (
     <div>
       <Navbar className="border-bottom" bg="transparent" expand="lg">
-        <NavbarBrand>Jonathan Robert Bleibdrey</NavbarBrand>
+        <Jumbotron className="bg-transparent jumbotron-fluid p-0">
+          <h1
+            className="display-5 font-weight-bolder"
+            style={{ marginTop: "30px" }}
+          >
+            JONATHAN BLEIBDREY
+          </h1>
+        </Jumbotron>
         <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
         <NavbarCollapse className="justify-content-end p-4" id="navbar-toggle">
           <Nav className="ml-auto">
@@ -25,9 +36,10 @@ const NavBar = () => {
                 padding: "10px",
                 border: "none",
                 color: "black",
+                fontSize: "40px",
               }}
             >
-              Home
+              <AiFillHome />
             </Link>
             <Link
               activeClass="active"
@@ -40,9 +52,10 @@ const NavBar = () => {
                 padding: "10px",
                 border: "none",
                 color: "black",
+                fontSize: "40px",
               }}
             >
-              About
+              <BsFillPersonFill />
             </Link>
             <Link
               activeClass="active"
@@ -55,9 +68,10 @@ const NavBar = () => {
                 padding: "10px",
                 border: "none",
                 color: "black",
+                fontSize: "40px",
               }}
             >
-              Portfolio
+              <FaBookOpen />
             </Link>
             <Link
               activeClass="active"
@@ -68,11 +82,12 @@ const NavBar = () => {
               to="contactPage"
               style={{
                 padding: "10px",
-                border:"none",
-                color:"black"
+                border: "none",
+                color: "black",
+                fontSize: "40px",
               }}
             >
-              Contact
+              <MdContactMail />
             </Link>
           </Nav>
         </NavbarCollapse>
