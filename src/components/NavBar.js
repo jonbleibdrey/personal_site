@@ -17,7 +17,7 @@ const NavBar = () => {
         className="border-bottom"
         expand="lg"
         style={{
-          boxShadow: "0px 30px 100px -30px gray",
+          boxShadow: "5px 10px 60px 10px #ccc",
           borderRadius: "20px",
           margin: "1%",
         }}

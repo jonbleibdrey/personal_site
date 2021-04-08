@@ -13,15 +13,16 @@ code {
 }
 
 .g-card{
-  margin: 15px
+  margin: 100px
 }
 
 .g-card-image {
-  width: 250px;
+  width: 200px;
+  height: 200px;
   cursor: pointer;
-  border-radius: 25px;
-  height: 250px;
-  box-shadow: 0px 0px 8px 1px #ccc;
+  object-fit: contain;
+  border-radius: 50px;
+  box-shadow: -9px 10px 10px 7px #ccc;
 }
 
 .g-card-info {

@@ -14,11 +14,11 @@ function AboutPage(props) {
           margin: "5%",
           marginBottom: "10%",
           fontFamily: "monospace",
-          boxShadow: "0px 15px 70px -7px gray",
+          boxShadow: "30px 40px 100px 30px #ccc",
           borderRadius: "20px",
+          marginTop: "-1%",
         }}
       >
-        <HomeText title={props.title} />
         <Row className="justify-content-center py-5">
           <Col xs={9} lg={12}>
             <Content>
@@ -31,8 +31,7 @@ function AboutPage(props) {
                     padding: "10%",
                     marginBottom: "15%",
                     fontFamily: "monospace",
-                    border: "1px solid black",
-                    boxShadow: "10px 20px",
+                    boxShadow: "-15px 17px 20px 15px #ccc",
                     borderRadius: "20px",
                     fontSize: "35px",
                   }}

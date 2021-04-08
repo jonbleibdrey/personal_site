@@ -2,7 +2,7 @@ import React from "react";
 
 const LogoBand = () => {
   return (
-    <div style={{ marginLeft: "20%", padding: "10%" }}>
+    <div style={{ marginLeft: "25%", padding: "5%", marginTop: "-5%" }}>
       <img
         align="center"
         alt="JavaScript"

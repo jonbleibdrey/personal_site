@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import linkedin from "../assets/images/linkedin.PNG";
 import github from "../assets/images/github.PNG";
-import jon from "../assets/images/jon.PNG";
+import Jon from "../assets/images/jon.PNG";
+import Medium from "../assets/images/medium.png";
 import Card from "../components/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -30,9 +31,17 @@ export class Carousel extends Component {
         },
         {
           id: 2,
+          title: "Medium",
+          subTitle: "Check out my Blog.",
+          imgSrc: Medium,
+          link: "https://jonbleibdrey.medium.com/",
+          selected: false,
+        },
+        {
+          id: 3,
           title: "Facebook",
           subTitle: "Check out social media.",
-          imgSrc: jon,
+          imgSrc: Jon,
           link: "https://www.facebook.com/jbleibdrey/",
           selected: false,
         },

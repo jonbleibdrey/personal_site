@@ -13,9 +13,9 @@ function HomePage(props) {
         style={{
           color: "black",
           margin: "5%",
-          marginBottom: "10%",
+          marginBottom: "5%",
           fontFamily: "monospace",
-          boxShadow: "10px 15px 100px -7px gray",
+          boxShadow: "30px 40px 100px 30px #ccc",
           borderRadius: "20px",
         }}
       >
@@ -26,8 +26,8 @@ function HomePage(props) {
         />
         <Row className="justify-content-center py-1">
           <Col xs={12}>
-            <Carousel />
             <LogoBand />
+            <Carousel />
           </Col>
         </Row>
       </div>

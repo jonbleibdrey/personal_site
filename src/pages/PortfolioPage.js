@@ -20,23 +20,22 @@ const PortfolioPage = (props) => {
           color: "black",
           margin: "5%",
           marginBottom: "10%",
+          marginTop: "-5%",
           fontFamily: "monospace",
-          boxShadow: "0px 15px 70px -7px gray",
+          boxShadow: "30px 40px 100px 30px #ccc",
           borderRadius: "20px",
         }}
       >
-        <HomeText title={props.title} />
-        <Container>
+        <Container style={{ padding: "3%" }}>
           <div
             style={{
               color: "black",
               backgroundColor: "white",
               margin: "5%",
               padding: "10%",
-              marginBottom: "15%",
+              marginBottom: "5%",
               fontFamily: "monospace",
-              boxShadow: "10px 20px",
-              border: "1px solid black",
+              boxShadow: "-15px 17px 20px 15px #ccc",
               borderRadius: "20px",
               fontSize: "35px",
             }}
@@ -44,17 +43,27 @@ const PortfolioPage = (props) => {
             portfolio page
           </div>
         </Container>
-        <div>
+        <div style={{ margin: "5%", marginBottom: "10%" }}>
           <CardDeck>
-            <Card >
-              <a   href="https://eloquent-benz-ba9740.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >
-              <Card.Img variant="top" src={ReadByHumans} alt="Read By Humans"  />
-
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://eloquent-benz-ba9740.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={ReadByHumans}
+                  alt="Read By Humans"
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Read By Humans</Card.Title>
                 <Card.Text>
                   Created a site to search for any book from Google book API.
@@ -65,14 +74,21 @@ const PortfolioPage = (props) => {
               </Card.Body>
             </Card>
 
-            <Card>
-              <a  href="https://fake-fun.web.app"
-                  target="_blank"
-                  rel="noreferrer">
-              <Card.Img variant="top" src={Google} alt="google app" />
-
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://fake-fun.web.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img variant="top" src={Google} alt="google app" />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Google app</Card.Title>
                 <Card.Text>
                   Created a fake google a replica of google to test my skill of
@@ -85,59 +101,87 @@ const PortfolioPage = (props) => {
               </Card.Body>
             </Card>
 
-            <Card >
-              <a href="https://tinder-clone-9d53e.web.app/"
-                  target="_blank"
-                  rel="noreferrer">
-
-              <Card.Img variant="top" src={President} alt="tinder clone app"  />
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://tinder-clone-9d53e.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={President}
+                  alt="tinder clone app"
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>president Tinder</Card.Title>
                 <Card.Text>
-                  Pres-inder is an application for people to vote but through
-                  tinder like swipe motion. Most of my app are surrounded around
-                  COVID times, to help the people stay safe and add value to the
-                  community of politics. You can message in between user's and
-                  swipe through your favorite presidents. The frontend is built
-                  with React, and the backend is built with Firebase. Built this
-                  project to practice/understand more about React, Material-ui
-                  and to learn Firebase software.
+                  Pres-inder is an application for people to vote but, through
+                  tinder like swipe motion. You can message in between user's
+                  and swipe through your favorite presidents. The frontend is
+                  built with React, and the backend is built with Firebase.
                 </Card.Text>
               </Card.Body>
             </Card>
 
-            <Card >
-              <a href="https://zen-hopper-ce8178.netlify.app"
-                  target="_blank"
-                  rel="noreferrer">
-
-              <Card.Img variant="top" src={Robot} alt="robotmaker app"  style={{height:"5vw"}}/>
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://zen-hopper-ce8178.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Robot}
+                  alt="robotmaker app"
+                  style={{ height: "5vw" }}
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Robot Maker</Card.Title>
                 <Card.Text>
-                  Robot Maker is an application for kids, particularly in COVID
-                  times, to build robots and parts. Users can create robots and
-                  view robots. I also built this to remind myself not to take it
-                  to serious and have fun with what i build. The frontend is
-                  built with React/Redux, and the backend is built with a Rails
-                  API. I used this project as an opportunity to practice with
-                  understanding React and Redux, maintaining page context
-                  through react-router-dom, and managing the flow of data
-                  between a decoupled frontend and backend.
+                  Robot Maker is an application for kids, playful site, to build
+                  robots and parts. Users can create robots and view robots. The
+                  frontend is built with React/Redux, and the backend is built
+                  with a Rails API. It helped me maintain page context through
+                  react-router-dom, and managing the flow of data between a
+                  decoupled frontend and backend.
                 </Card.Text>
               </Card.Body>
             </Card>
 
-            <Card >
-              <a  href="https://github.com/jonbleibdrey/rails_food_truck_review"
-                  target="_blank"
-                  rel="noreferrer">
-
-              <Card.Img variant="top" src={FoodTruck} alt="foodtruck app" style={{height:"5vw"}} />
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://github.com/jonbleibdrey/rails_food_truck_review"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={FoodTruck}
+                  alt="foodtruck app"
+                  style={{ height: "5vw" }}
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Food Truck</Card.Title>
                 <Card.Text>
                   Food Truck Review is my Rails portfolio project for the
@@ -149,45 +193,69 @@ const PortfolioPage = (props) => {
               </Card.Body>
             </Card>
 
-            <Card >
-              <a     href="https://github.com/jonbleibdrey/the_spiritual_thought"
-                  target="_blank"
-                  rel="noreferrer">
-
-              <Card.Img variant="top" src={Journal} alt="journal app" style={{height:"5vw"}} />
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://github.com/jonbleibdrey/the_spiritual_thought"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Journal}
+                  alt="journal app"
+                  style={{ height: "5vw" }}
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>The Spiritual Thought</Card.Title>
                 <Card.Text>
-                  This was my second portfolio project for the Flatiron software
-                  engineering program. It's meant to demonstrate my competence
-                  with the Sinatra web framework. I built a journal application
-                  for managing users journals and if you wanted to share with
-                  other people you could do that also.
+                  This was my second portfolio project EVER, we all have to
+                  start somewhere. It's meant to demonstrate my competence with
+                  the Sinatra web framework. I built a journal application for
+                  managing users journals and if you wanted to share with other
+                  people you could do that also.
                 </Card.Text>
               </Card.Body>
             </Card>
 
-            <Card >
-              <a href="https://github.com/jonbleibdrey"
-                  target="_blank"
-                  rel="noreferrer">
-
-              <Card.Img variant="top" src={Jon} alt="Me" style={{height:"5vw"}} />
+            <Card
+              style={{
+                margin: "1%",
+                marginBottom: "10%",
+                boxShadow: "-5px 9px 15px 5px #ccc",
+              }}
+            >
+              <a
+                href="https://github.com/jonbleibdrey"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Jon}
+                  alt="Me"
+                  style={{ height: "5vw" }}
+                />
               </a>
-              <Card.Body style={{padding:"4%"}}>
+              <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Check out my github</Card.Title>
                 <Card.Text>
-                  This was my second portfolio project for the Flatiron software
-                  engineering program. It's meant to demonstrate my competence
-                  with the Sinatra web framework. I built a journal application
-                  for managing users journals and if you wanted to share with
-                  other people you could do that also.
+                  As i grow I remember to enjoy the journey as much as the
+                  outcome. I keep building to show people you can be creative
+                  and smart. During the time of reading this I might not have
+                  the best sites but thats not the point, the point was i
+                  enjoyed myself whiling doing it.
                 </Card.Text>
               </Card.Body>
             </Card>
           </CardDeck>
-          </div>
+        </div>
       </div>
     </div>
   );

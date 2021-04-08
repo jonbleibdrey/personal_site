@@ -61,11 +61,11 @@ class ContactPage extends Component {
             margin: "5%",
             marginBottom: "10%",
             fontFamily: "monospace",
-            boxShadow: "0px 15px 70px -7px gray",
+            boxShadow: "30px 40px 100px 30px #ccc",
             borderRadius: "20px",
+            marginTop: "-5%",
           }}
         >
-          <HomeText title={this.props.title} />
           <Content></Content>
           <Row className="justify-content-center py-5">
             <Col xs={7} lg={9}>
@@ -75,10 +75,9 @@ class ContactPage extends Component {
                   backgroundColor: "white",
                   margin: "5%",
                   padding: "10%",
-                  marginBottom: "15%",
+                  marginBottom: "10%",
                   fontFamily: "monospace",
-                  boxShadow: "10px 20px",
-                  border: "1px solid black",
+                  boxShadow: "-15px 17px 20px 15px #ccc",
                   borderRadius: "20px",
                   fontSize: "35px",
                 }}
