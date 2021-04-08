@@ -76,12 +76,12 @@ class ContactPage extends Component {
                   padding: "10%",
                   marginBottom: "10%",
                   fontFamily: "monospace",
-                  boxShadow: "-15px 17px 20px 15px #ccc",
+                  boxShadow: "-10px 17px 20px 15px #ccc",
                   borderRadius: "20px",
-                  fontSize: "35px",
+                  fontSize: "40px",
                 }}
               >
-                Contact page
+                Contact
               </div>
               <Form onSubmit={this.handleSubmit}>
                 <Form.Group>

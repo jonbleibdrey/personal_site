@@ -32,12 +32,12 @@ const PortfolioPage = (props) => {
               padding: "10%",
               marginBottom: "5%",
               fontFamily: "monospace",
-              boxShadow: "-15px 17px 20px 15px #ccc",
+              boxShadow: "-10px 17px 20px 15px #ccc",
               borderRadius: "20px",
-              fontSize: "35px",
+              fontSize: "40px",
             }}
           >
-            portfolio page
+            Portfolio 
           </div>
         </Container>
         <div style={{ margin: "5%", marginBottom: "10%" }}>

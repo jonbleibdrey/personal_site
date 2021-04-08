@@ -30,12 +30,12 @@ function AboutPage(props) {
                     padding: "10%",
                     marginBottom: "15%",
                     fontFamily: "monospace",
-                    boxShadow: "-15px 17px 20px 15px #ccc",
+                    boxShadow: "-10px 17px 20px 15px #ccc",
                     borderRadius: "20px",
-                    fontSize: "35px",
+                    fontSize: "40px",
                   }}
                 >
-                  AboutPage
+                  About 
                 </div>
 
                 <h3>
@@ -51,15 +51,15 @@ function AboutPage(props) {
                 </h3>
                 <br />
                 <h3>
-                  I'm constantly learning new things and keeping up with new
-                  tech. Currently those things include gaining more experience
-                  with Javascript, React and Firebase
+                  I'm constantly learning new things, enjoying the process and keeping up with new
+                  tech. Currently Im gaining more experience
+                  with Javascript, React and Firebase.
                 </h3>
                 <br />
                 <h3>
                   My last couple of projects, where based on the economics of
-                  where I think the world is going, during the Covid-19 period.
-                  You can find them
+                  where I think the world is going during the Covid-19 period.
+                  You can find my code
                   <a
                     style={{ color: "black" }}
                     href="https://github.com/jonbleibdrey"
@@ -74,7 +74,7 @@ function AboutPage(props) {
                 <br />
                 <h3>
                   When I'm not learning something new chances are I'm creating
-                  some type of art. Which you can find photography{" "}
+                  some type of art, shooting archery, and I also dabble in photography. Which you can find{" "}
                   <a
                     style={{ color: "black" }}
                     href="https://www.instagram.com/johnnyb.experience/"
@@ -84,7 +84,7 @@ function AboutPage(props) {
                     {" "}
                     here
                   </a>
-                  . or drawings{" "}
+                    . my drawings you can find{" "}
                   <a
                     style={{ color: "black" }}
                     href="https://www.instagram.com/johnnyb.exploration/"

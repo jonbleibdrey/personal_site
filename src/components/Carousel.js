@@ -14,25 +14,25 @@ export class Carousel extends Component {
       items: [
         {
           id: 0,
+          title: "Github",
+          subTitle: "What i have made.",
+          imgSrc: github,
+          link: "https://github.com/jonbleibdrey",
+          selected: false,
+        },
+        {
+          id: 1,
           title: "Linked in",
-          subTitle: "Check out credentials.",
+          subTitle: "credentials.",
           imgSrc: linkedin,
           link:
             "https://www.linkedin.com/mwlite/in/jonathan-bleibdrey-4032171b9",
           selected: false,
         },
         {
-          id: 1,
-          title: "Github",
-          subTitle: "Check out what i have made.",
-          imgSrc: github,
-          link: "https://github.com/jonbleibdrey",
-          selected: false,
-        },
-        {
           id: 2,
           title: "Medium",
-          subTitle: "Check out my Blog.",
+          subTitle: "My Blog.",
           imgSrc: Medium,
           link: "https://jonbleibdrey.medium.com/",
           selected: false,
@@ -40,7 +40,7 @@ export class Carousel extends Component {
         {
           id: 3,
           title: "Facebook",
-          subTitle: "Check out social media.",
+          subTitle: "Social media.",
           imgSrc: Jon,
           link: "https://www.facebook.com/jbleibdrey/",
           selected: false,
