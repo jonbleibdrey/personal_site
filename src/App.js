@@ -42,6 +42,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <NavBar />
+
           <Switch>
             <Route
               path="/"

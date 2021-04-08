@@ -27,7 +27,7 @@ function HomePage(props) {
         <Row className="justify-content-center py-1">
           <Col xs={12}>
             <Carousel />
-        <LogoBand />
+            <LogoBand />
           </Col>
         </Row>
       </div>
