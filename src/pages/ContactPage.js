@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Content from "../components/Content";
-import HomeText from "../components/HomeText";
 import emailjs from "emailjs-com";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";

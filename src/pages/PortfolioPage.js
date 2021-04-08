@@ -1,9 +1,6 @@
 import React from "react";
-import HomeText from "../components/HomeText";
-import Content from "../components/Content";
-import { Button, Card, Container, CardDeck } from "react-bootstrap";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { Card, Container, CardDeck } from "react-bootstrap";
+
 import FoodTruck from "../assets/images/foodtruck.png";
 import Robot from "../assets/images/robot.png";
 import President from "../assets/images/president.png";
