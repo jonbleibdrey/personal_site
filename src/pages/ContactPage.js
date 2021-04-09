@@ -60,8 +60,8 @@ class ContactPage extends Component {
             margin: "5%",
             marginBottom: "10%",
             fontFamily: "monospace",
-            boxShadow: "30px 40px 100px 30px #ccc",
-            borderRadius: "20px",
+            boxShadow: "-27px 31px 35px 29px #ccc",
+            borderRadius: "45px",
             marginTop: "-5%",
           }}
         >

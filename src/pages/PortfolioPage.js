@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container, CardDeck } from "react-bootstrap";
+import { Card, Container, CardDeck, Row, Col } from "react-bootstrap";
 
 import FoodTruck from "../assets/images/foodtruck.png";
 import Robot from "../assets/images/robot.png";
@@ -19,8 +19,8 @@ const PortfolioPage = (props) => {
           marginBottom: "10%",
           marginTop: "-5%",
           fontFamily: "monospace",
-          boxShadow: "30px 40px 100px 30px #ccc",
-          borderRadius: "20px",
+          boxShadow: "-27px 31px 35px 29px #ccc",
+          borderRadius: "45px",
         }}
       >
         <Container style={{ padding: "3%" }}>
@@ -32,21 +32,25 @@ const PortfolioPage = (props) => {
               padding: "10%",
               marginBottom: "5%",
               fontFamily: "monospace",
-              boxShadow: "-10px 17px 20px 15px #ccc",
-              borderRadius: "20px",
+              boxShadow: "-27px 31px 35px 29px #ccc",
+          borderRadius: "45px",
               fontSize: "40px",
             }}
           >
             Portfolio 
           </div>
         </Container>
-        <div style={{ margin: "5%", marginBottom: "10%" }}>
+        <Container>
           <CardDeck>
+        <Row>
+          <Col xs={6} >
+       
             <Card
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
             >
               <a
@@ -58,6 +62,7 @@ const PortfolioPage = (props) => {
                   variant="top"
                   src={ReadByHumans}
                   alt="Read By Humans"
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
                 />
               </a>
               <Card.Body style={{ padding: "4%" }}>
@@ -75,7 +80,8 @@ const PortfolioPage = (props) => {
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
             >
               <a
@@ -83,7 +89,7 @@ const PortfolioPage = (props) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Card.Img variant="top" src={Google} alt="google app" />
+                <Card.Img variant="top" src={Google} alt="google app" style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}} />
               </a>
               <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>Google app</Card.Title>
@@ -102,19 +108,21 @@ const PortfolioPage = (props) => {
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
-            >
+              >
               <a
                 href="https://tinder-clone-9d53e.web.app/"
                 target="_blank"
                 rel="noreferrer"
-              >
+                >
                 <Card.Img
                   variant="top"
                   src={President}
                   alt="tinder clone app"
-                />
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
+                  />
               </a>
               <Card.Body style={{ padding: "4%" }}>
                 <Card.Title>president Tinder</Card.Title>
@@ -126,12 +134,12 @@ const PortfolioPage = (props) => {
                 </Card.Text>
               </Card.Body>
             </Card>
-
             <Card
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
             >
               <a
@@ -143,7 +151,7 @@ const PortfolioPage = (props) => {
                   variant="top"
                   src={Robot}
                   alt="robotmaker app"
-                  style={{ height: "5vw" }}
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
                 />
               </a>
               <Card.Body style={{ padding: "4%" }}>
@@ -158,12 +166,15 @@ const PortfolioPage = (props) => {
                 </Card.Text>
               </Card.Body>
             </Card>
+              </Col>
+              <Col xs={6} >
 
             <Card
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
             >
               <a
@@ -175,7 +186,7 @@ const PortfolioPage = (props) => {
                   variant="top"
                   src={FoodTruck}
                   alt="foodtruck app"
-                  style={{ height: "5vw" }}
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
                 />
               </a>
               <Card.Body style={{ padding: "4%" }}>
@@ -194,7 +205,8 @@ const PortfolioPage = (props) => {
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
               }}
             >
               <a
@@ -206,7 +218,7 @@ const PortfolioPage = (props) => {
                   variant="top"
                   src={Journal}
                   alt="journal app"
-                  style={{ height: "5vw" }}
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
                 />
               </a>
               <Card.Body style={{ padding: "4%" }}>
@@ -225,7 +237,9 @@ const PortfolioPage = (props) => {
               style={{
                 margin: "1%",
                 marginBottom: "10%",
-                boxShadow: "-5px 9px 15px 5px #ccc",
+                boxShadow: "-10px 12px 20px 13px #ccc",
+                borderRadius: "15px",
+                
               }}
             >
               <a
@@ -237,7 +251,7 @@ const PortfolioPage = (props) => {
                   variant="top"
                   src={Jon}
                   alt="Me"
-                  style={{ height: "5vw" }}
+                  style={{maxHeight:"400px", minHeight:"200px", borderRadius:"15px"}}
                 />
               </a>
               <Card.Body style={{ padding: "4%" }}>
@@ -251,8 +265,10 @@ const PortfolioPage = (props) => {
                 </Card.Text>
               </Card.Body>
             </Card>
+        </Col>
+        </Row>
           </CardDeck>
-        </div>
+          </Container>
       </div>
     </div>
   );
