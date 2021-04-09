@@ -41,8 +41,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={120}
-              duration={500}
+              offset={200}
+              duration={1400}
               to="homePage"
               style={{
                 padding: "10px",
@@ -58,7 +58,7 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={70}
-              duration={1000}
+              duration={1300}
               to="aboutPage"
               style={{
                 padding: "10px",
@@ -73,8 +73,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={300}
-              duration={1500}
+              offset={10}
+              duration={1200}
               to="portfolioPage"
               style={{
                 padding: "10px",
@@ -89,8 +89,8 @@ const NavBar = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={130}
-              duration={2000}
+              offset={10}
+              duration={1100}
               to="contactPage"
               style={{
                 padding: "10px",
