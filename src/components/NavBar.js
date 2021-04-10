@@ -12,7 +12,7 @@ import { Jumbotron } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <div style={{backgroundColor: "#f4f0f7", padding:"20px"}}>
+    <div>
       <Navbar
         className="border-bottom"
         expand="lg"

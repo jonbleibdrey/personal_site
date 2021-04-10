@@ -42,7 +42,8 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <NavBar />
+            <div style={{backgroundColor: "#f0edf2", padding:"20px"}}>
+            <NavBar />
 
           <Switch>
             <Route
@@ -50,11 +51,11 @@ class App extends React.Component {
               exact
               render={() => (
                 <HomePage
-                  title={this.state.home.title}
-                  subTitle={this.state.home.subTitle}
-                  text={this.state.home.text}
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                text={this.state.home.text}
                 />
-              )}
+                )}
             />
             <Route
               path="/about"
@@ -68,10 +69,9 @@ class App extends React.Component {
               path="/portfolio"
               render={() => (
                 <PortfolioPage title={this.state.portfolio.title} />
-              )}
+                )}
             />
           </Switch>
-          <div style={{backgroundColor:"#f4f0f7"}}>
         <AboutPage name="aboutPage" />
         <PortfolioPage name="portfolioPage " />
         <ContactPage name="contactPage" />
