@@ -42,40 +42,39 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-            <div style={{backgroundColor: "#e9e6eb", padding:"20px"}}>
+          <div style={{ backgroundColor: "#e9e6eb", padding: "20px" }}>
             <NavBar />
-
-          <Switch>
-            <Route
-              path="/"
-              exact
-              render={() => (
-                <HomePage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                text={this.state.home.text}
-                />
+            <Switch>
+              <Route
+                path="/"
+                exact
+                render={() => (
+                  <HomePage
+                    title={this.state.home.title}
+                    subTitle={this.state.home.subTitle}
+                    text={this.state.home.text}
+                  />
                 )}
-            />
-            <Route
-              path="/about"
-              render={() => <AboutPage title={this.state.about.title} />}
-            />
-            <Route
-              path="/contact"
-              render={() => <ContactPage title={this.state.contact.title} />}
-            />
-            <Route
-              path="/portfolio"
-              render={() => (
-                <PortfolioPage title={this.state.portfolio.title} />
+              />
+              <Route
+                path="/about"
+                render={() => <AboutPage title={this.state.about.title} />}
+              />
+              <Route
+                path="/contact"
+                render={() => <ContactPage title={this.state.contact.title} />}
+              />
+              <Route
+                path="/portfolio"
+                render={() => (
+                  <PortfolioPage title={this.state.portfolio.title} />
                 )}
-            />
-          </Switch>
-        <AboutPage name="aboutPage" />
-        <PortfolioPage name="portfolioPage " />
-        <ContactPage name="contactPage" />
-        <Footer />
+              />
+            </Switch>
+            <AboutPage name="aboutPage" />
+            <PortfolioPage name="portfolioPage " />
+            <ContactPage name="contactPage" />
+            <Footer />
           </div>
         </Container>
       </Router>

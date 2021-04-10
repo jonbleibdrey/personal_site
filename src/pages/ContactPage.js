@@ -66,7 +66,6 @@ class ContactPage extends Component {
             backgroundColor: "white",
           }}
         >
-         
           <Row className="justify-content-center py-5">
             <Col xs={7} lg={9}>
               <div

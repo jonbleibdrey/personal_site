@@ -20,7 +20,7 @@ const NavBar = () => {
           boxShadow: "-9px 10px 8px 7px #ccc",
           borderRadius: "25px",
           margin: "1%",
-          backgroundColor: "white"
+          backgroundColor: "white",
         }}
       >
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
@@ -30,7 +30,6 @@ const NavBar = () => {
               marginTop: "30px",
               fontFamily: "monospace",
               marginLeft: "50px",
-              
             }}
           >
             JONATHAN BLEIBDREY

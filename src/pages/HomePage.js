@@ -16,7 +16,7 @@ function HomePage(props) {
           fontFamily: "monospace",
           boxShadow: "-30px 40px 11px 40px #ccc",
           borderRadius: "50px",
-          backgroundColor:"white"
+          backgroundColor: "white",
         }}
       >
         <HomeText
