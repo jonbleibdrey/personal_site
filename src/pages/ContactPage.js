@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Content from "../components/Content";
+
 import emailjs from "emailjs-com";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -53,7 +53,7 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div id="contactPage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
+      <div id="contactPage" >
         <div
           style={{
             color: "black",
@@ -66,7 +66,7 @@ class ContactPage extends Component {
             backgroundColor: "white",
           }}
         >
-          <Content></Content>
+         
           <Row className="justify-content-center py-5">
             <Col xs={7} lg={9}>
               <div

@@ -71,11 +71,13 @@ class App extends React.Component {
               )}
             />
           </Switch>
-        </Container>
+          <div style={{backgroundColor:"#f4f0f7"}}>
         <AboutPage name="aboutPage" />
         <PortfolioPage name="portfolioPage " />
         <ContactPage name="contactPage" />
         <Footer />
+          </div>
+        </Container>
       </Router>
     );
   }
