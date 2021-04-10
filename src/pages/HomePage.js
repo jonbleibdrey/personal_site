@@ -17,6 +17,7 @@ function HomePage(props) {
           boxShadow: "-30px 40px 11px 40px #ccc",
           borderRadius: "50px",
           backgroundColor: "white",
+          wordWrap:"break-word"
         }}
       >
         <HomeText
