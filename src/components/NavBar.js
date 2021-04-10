@@ -12,7 +12,7 @@ import { Jumbotron } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <div>
+    <div style={{backgroundColor: "#f4f0f7", padding:"20px"}}>
       <Navbar
         className="border-bottom"
         expand="lg"
@@ -20,6 +20,7 @@ const NavBar = () => {
           boxShadow: "-9px 10px 20px 7px #ccc",
           borderRadius: "20px",
           margin: "1%",
+          backgroundColor: "white"
         }}
       >
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
@@ -29,6 +30,7 @@ const NavBar = () => {
               marginTop: "30px",
               fontFamily: "monospace",
               marginLeft: "50px",
+              
             }}
           >
             JONATHAN BLEIBDREY

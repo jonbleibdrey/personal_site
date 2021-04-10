@@ -11,15 +11,19 @@ function HomeText(props) {
         <Row className="ml-5">
           <Col md={4} sm={8} lg={12}>
             {props.title && (
-              <h1 className="display-1 font-weight-bolder ml-5">{props.title}</h1>
+              <h1 className="display-1 font-weight-bolder ml-5">
+                {props.title}
+              </h1>
             )}
-            <br/>
-            <br/>
+            <br />
+            <br />
             {props.subTitle && (
-              <h3 className="display-4 font-weight-light ml-3">{props.subTitle}</h3>
+              <h3 className="display-4 font-weight-light ml-3">
+                {props.subTitle}
+              </h3>
             )}
-            <br/>
-            <br/>
+            <br />
+            <br />
             {props.text && (
               <h3 className="lead font-weight-light ml-5">{props.text}</h3>
             )}

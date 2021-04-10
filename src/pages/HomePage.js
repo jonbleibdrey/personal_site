@@ -7,7 +7,7 @@ import "../App.css";
 
 function HomePage(props) {
   return (
-    <div id="homePage" style={{ backgroundColor: "white", padding: "3%" }}>
+    <div id="homePage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
       <div
         style={{
           color: "black",
@@ -16,6 +16,7 @@ function HomePage(props) {
           fontFamily: "monospace",
           boxShadow: "-27px 31px 35px 29px #ccc",
           borderRadius: "45px",
+          backgroundColor:"white"
         }}
       >
         <HomeText
@@ -25,7 +26,6 @@ function HomePage(props) {
         />
         <Row className="justify-content-center py-1">
           <Col xs={12}>
-       
             <Carousel />
           </Col>
         </Row>

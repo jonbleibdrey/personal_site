@@ -53,7 +53,7 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div id="contactPage" style={{ backgroundColor: "white", padding: "3%" }}>
+      <div id="contactPage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
         <div
           style={{
             color: "black",
@@ -63,6 +63,7 @@ class ContactPage extends Component {
             boxShadow: "-27px 31px 35px 29px #ccc",
             borderRadius: "45px",
             marginTop: "-5%",
+            backgroundColor: "white",
           }}
         >
           <Content></Content>

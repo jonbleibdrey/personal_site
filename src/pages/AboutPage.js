@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 
 function AboutPage(props) {
   return (
-    <div id="aboutPage" style={{ backgroundColor: "white", padding: "3%" }}>
+    <div id="aboutPage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
       <div
         style={{
           color: "black",
@@ -16,36 +16,31 @@ function AboutPage(props) {
           boxShadow: "-27px 31px 35px 29px #ccc",
           borderRadius: "45px",
           marginTop: "-1%",
+          backgroundColor: "white",
         }}
       >
-        
-         
-            <Content>
-                <div
-                  style={{
-                    color: "black",
-                    backgroundColor: "white",
-                    margin: "5%",
-                    padding: "10%",
-                    marginBottom: "10%",
-                    fontFamily: "monospace",
-                    boxShadow: "-10px 17px 20px 15px #ccc",
-                    borderRadius: "20px",
-                    fontSize: "40px",
-                  }}
-                  >
-                  About 
-                </div>
-                  </Content>
-               
-                 
-                
-                <Container>
-                <Row>
+        <Content>
+          <div
+            style={{
+              color: "black",
+              backgroundColor: "white",
+              margin: "5%",
+              padding: "10%",
+              marginBottom: "10%",
+              fontFamily: "monospace",
+              boxShadow: "-10px 17px 20px 15px #ccc",
+              borderRadius: "20px",
+              fontSize: "40px",
+            }}
+          >
+            About
+          </div>
+        </Content>
 
-                  <Col xs={6} >
-                    <div style={{marginBottom:"10%"}}>
-
+        <Container>
+          <Row>
+            <Col xs={6}>
+              <div style={{ marginBottom: "10%" }}>
                 <h3>
                   Hello, my name is Jonathan. I'm a full stack engineer with
                   experience in Javascript, React, Ruby, and Rails.
@@ -59,8 +54,8 @@ function AboutPage(props) {
                 </h3>
                 <br />
                 <h3>
-                  I'm constantly learning new things, enjoying the process and keeping up with new
-                  tech. Currently Im gaining more experience
+                  I'm constantly learning new things, enjoying the process and
+                  keeping up with new tech. Currently Im gaining more experience
                   with Javascript, React and Firebase.
                 </h3>
                 <br />
@@ -82,7 +77,8 @@ function AboutPage(props) {
                 <br />
                 <h3>
                   When I'm not learning something new chances are I'm creating
-                  some type of art, shooting archery, and I also dabble in photography. Which you can find{" "}
+                  some type of art, shooting archery, and I also dabble in
+                  photography. Which you can find{" "}
                   <a
                     style={{ color: "black" }}
                     href="https://www.instagram.com/johnnyb.experience/"
@@ -92,7 +88,7 @@ function AboutPage(props) {
                     {" "}
                     here
                   </a>
-                    . my drawings you can find{" "}
+                  . my drawings you can find{" "}
                   <a
                     style={{ color: "black" }}
                     href="https://www.instagram.com/johnnyb.exploration/"
@@ -103,10 +99,11 @@ function AboutPage(props) {
                     here.{" "}
                   </a>{" "}
                 </h3>
-                    </div>
-          </Col>
-          <Col xs={6} >
-                <ul    style={{
+              </div>
+            </Col>
+            <Col xs={6}>
+              <ul
+                style={{
                   color: "black",
                   backgroundColor: "white",
                   margin: "5%",
@@ -116,37 +113,44 @@ function AboutPage(props) {
                   boxShadow: "-10px 17px 20px 15px #ccc",
                   borderRadius: "20px",
                   fontSize: "40px",
-                }}>
-                  <li style={{margin:"5%", padding:"2%"}}>  <img
-        align="center"
-        alt="JavaScript"
-        style={{margin:"4%"}}
-        width="50px"
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-      />
-      <img
-        align="center"
-        alt="React"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-      />
-      <img
-        align="center"
-        alt="Redux"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
-      />
-      <img
-        align="center"
-        alt="Ruby"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png"
-      /></li>
-                </ul>
-                <ul    style={{
+                }}
+              >
+                <div>
+                  <h1>Languages</h1>
+                </div>
+                <li style={{ margin: "4%", padding: "2%" }}>
+                  <img
+                    align="center"
+                    alt="JavaScript"
+                    style={{ margin: "4%" }}
+                    width="50px"
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                  />
+                  <img
+                    align="center"
+                    alt="React"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                  />
+                  <img
+                    align="center"
+                    alt="Ruby"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png"
+                  />
+                  <img
+                    align="center"
+                    alt="Ruby on Rails"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
+                  />
+                </li>
+              </ul>
+              <ul
+                style={{
                   color: "black",
                   backgroundColor: "white",
                   margin: "5%",
@@ -156,37 +160,44 @@ function AboutPage(props) {
                   boxShadow: "-10px 17px 20px 15px #ccc",
                   borderRadius: "20px",
                   fontSize: "40px",
-                }}>
-                  <li style={{margin:"5%", padding:"2%"}}>  <img
-        align="center"
-        alt="Ruby on Rails"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
-      />
-      <img
-        align="center"
-        alt="HTML5"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-      />
-      <img
-        align="center"
-        alt="CSS3"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-      />
-      <img
-        align="center"
-        alt="bootstap"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
-      /></li>
-                </ul>
-                <ul    style={{
+                }}
+              >
+                <div>
+                  <h1>Style</h1>
+                </div>
+                <li style={{ margin: "5%", padding: "2%" }}>
+                  <img
+                    align="center"
+                    alt="HTML5"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                  />
+                  <img
+                    align="center"
+                    alt="CSS3"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                  />
+                  <img
+                    align="center"
+                    alt="Visual Studio Code"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
+                  />
+                  <img
+                    align="center"
+                    alt="bootstap"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+                  />
+                </li>
+              </ul>
+              <ul
+                style={{
                   color: "black",
                   backgroundColor: "white",
                   margin: "5%",
@@ -196,40 +207,45 @@ function AboutPage(props) {
                   boxShadow: "-10px 17px 20px 15px #ccc",
                   borderRadius: "20px",
                   fontSize: "40px",
-                }}>
-                  <li style={{margin:"5%", padding:"2%"}}> <img
-        align="center"
-        alt="SQL"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
-      />
-      <img
-        align="center"
-        alt="firebase"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-      />
-
-      <img
-        align="center"
-        alt="GitHub"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
-      />
-      <img
-        align="center"
-        alt="Visual Studio Code"
-        width="50px"
-        style={{margin:"4%"}}
-        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
-      /></li>
-                </ul>
-          </Col>
-
-        </Row>
+                }}
+              >
+                <div>
+                  <h1>Other's</h1>
+                </div>
+                <li style={{ margin: "5%", padding: "2%" }}>
+                  {" "}
+                  <img
+                    align="center"
+                    alt="SQL"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+                  />
+                  <img
+                    align="center"
+                    alt="firebase"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                  />
+                  <img
+                    align="center"
+                    alt="GitHub"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
+                  />
+                  <img
+                    align="center"
+                    alt="Redux"
+                    width="50px"
+                    style={{ margin: "4%" }}
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
+                  />
+                </li>
+              </ul>
+            </Col>
+          </Row>
         </Container>
       </div>
     </div>
