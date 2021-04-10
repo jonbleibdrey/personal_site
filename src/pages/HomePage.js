@@ -7,15 +7,15 @@ import "../App.css";
 
 function HomePage(props) {
   return (
-    <div id="homePage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
+    <div id="homePage" style={{ padding: "2%" }}>
       <div
         style={{
           color: "black",
           margin: "5%",
           marginBottom: "5%",
           fontFamily: "monospace",
-          boxShadow: "-27px 31px 35px 29px #ccc",
-          borderRadius: "45px",
+          boxShadow: "-30px 40px 11px 40px #ccc",
+          borderRadius: "50px",
           backgroundColor:"white"
         }}
       >

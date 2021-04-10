@@ -42,7 +42,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-            <div style={{backgroundColor: "#f0edf2", padding:"20px"}}>
+            <div style={{backgroundColor: "#e9e6eb", padding:"20px"}}>
             <NavBar />
 
           <Switch>

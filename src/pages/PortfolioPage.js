@@ -11,16 +11,16 @@ import Jon from "../assets/images/jon.PNG";
 
 const PortfolioPage = (props) => {
   return (
-    <div id="portfolioPage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
+    <div id="portfolioPage" style={{ padding: "2%" }}>
       <div
         style={{
           color: "black",
           margin: "5%",
-          marginBottom: "10%",
+          marginBottom: "9%",
           marginTop: "-5%",
           fontFamily: "monospace",
-          boxShadow: "-27px 31px 35px 29px #ccc",
-          borderRadius: "45px",
+          boxShadow: "-30px 40px 13px 40px #ccc",
+          borderRadius: "55px",
           backgroundColor: "white",
         }}
       >

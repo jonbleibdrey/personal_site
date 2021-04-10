@@ -53,15 +53,15 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div id="contactPage" >
+      <div id="contactPage" style={{ padding: "2%" }}>
         <div
           style={{
             color: "black",
             margin: "5%",
             marginBottom: "10%",
             fontFamily: "monospace",
-            boxShadow: "-27px 31px 35px 29px #ccc",
-            borderRadius: "45px",
+            boxShadow: "-30px 41px 11px 40px #ccc",
+            borderRadius: "53px",
             marginTop: "-5%",
             backgroundColor: "white",
           }}

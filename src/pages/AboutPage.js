@@ -6,15 +6,15 @@ import Row from "react-bootstrap/Row";
 
 function AboutPage(props) {
   return (
-    <div id="aboutPage" style={{ backgroundColor: "#f4f0f7", padding: "3%" }}>
+    <div id="aboutPage" style={{ padding: "2%" }}>
       <div
         style={{
           color: "black",
           margin: "5%",
-          marginBottom: "10%",
+          marginBottom: "9%",
           fontFamily: "monospace",
-          boxShadow: "-27px 31px 35px 29px #ccc",
-          borderRadius: "45px",
+          boxShadow: "-30px 40px 10px 40px #ccc",
+          borderRadius: "55px",
           marginTop: "-1%",
           backgroundColor: "white",
         }}
