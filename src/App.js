@@ -21,10 +21,10 @@ class App extends React.Component {
         { title: "Portfolio", path: "/portfolio" },
       ],
       home: {
-        title: "Welcome to: The present moment!",
+        title: "Websites you want to touch.",
         subTitle: "My name is Jonathan Bleibdrey",
         text:
-          " I Like the minimalist look because its simple, useful and gets to the point.",
+          " I like the minimalist look because it's simple, useful, and gets to the point.",
       },
       about: {
         title: "About Me",

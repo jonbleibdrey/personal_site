@@ -55,12 +55,12 @@ function AboutPage(props) {
                 <br />
                 <h3>
                   I'm constantly learning new things, enjoying the process and
-                  keeping up with new tech. Currently Im gaining more experience
+                  keeping up with new tech. Currently I'm gaining more experience
                   with Javascript, React and Firebase.
                 </h3>
                 <br />
                 <h3>
-                  My last couple of projects, where based on the economics of
+                  My last couple of projects were based on the economics of
                   where I think the world is going during the Covid-19 period.
                   You can find my code
                   <a
@@ -76,7 +76,7 @@ function AboutPage(props) {
                 </h3>
                 <br />
                 <h3>
-                  When I'm not learning something new chances are I'm creating
+                  When I'm not learning something new, chances are I'm creating
                   some type of art, shooting archery, and I also dabble in
                   photography. Which you can find{" "}
                   <a
@@ -86,18 +86,8 @@ function AboutPage(props) {
                     rel="noreferrer"
                   >
                     {" "}
-                    here
+                    here.
                   </a>
-                  . my drawings you can find{" "}
-                  <a
-                    style={{ color: "black" }}
-                    href="https://www.instagram.com/johnnyb.exploration/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    here.{" "}
-                  </a>{" "}
                 </h3>
               </div>
             </Col>
@@ -210,7 +200,7 @@ function AboutPage(props) {
                 }}
               >
                 <div>
-                  <h1>Other's</h1>
+                  <h1>Others</h1>
                 </div>
                 <li style={{ margin: "5%", padding: "2%" }}>
                   {" "}
