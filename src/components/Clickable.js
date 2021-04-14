@@ -3,11 +3,12 @@ import linkedin from "../assets/images/linkedin.PNG";
 import github from "../assets/images/github.PNG";
 import Jon from "../assets/images/jon.PNG";
 import Medium from "../assets/images/medium.png";
-import Card from "../components/Card";
+import Card from "./Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import "../css/card.css";
 
-export class Carousel extends Component {
+export class Clickable extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -87,4 +88,4 @@ export class Carousel extends Component {
   }
 }
 
-export default Carousel;
+export default Clickable;

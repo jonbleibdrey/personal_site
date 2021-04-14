@@ -1,0 +1,48 @@
+.portfolio__completeDiv {
+  padding: 2%;
+}
+
+.portfolio__div {
+  color: black;
+  margin: 5%;
+  margin-bottom: 9%;
+  margin-top: -5%;
+  font-family: monospace;
+  box-shadow: -30px 40px 13px 40px #ccc;
+  border-radius: 55px;
+  background-color: white;
+}
+
+.portfolio__container {
+  padding: 3%;
+}
+
+.portfolio__header {
+  color: black;
+  background-color: white;
+  margin: 5%;
+  padding: 10%;
+  margin-bottom: 5%;
+  font-family: monospace;
+  box-shadow: -27px 31px 35px 29px #ccc;
+  border-radius: 45px;
+  font-size: 40px;
+}
+
+
+.portfolio__cardBody{
+    padding: 4%;
+}
+
+/* .portfolio__card {
+  margin: 1%;
+  margin-bottom: 10%;
+  box-shadow: -10px 12px 20px 13px #ccc;
+  border-radius: 15px;
+}
+
+.portfolio__cardImg {
+  max-height: 400px;
+  min-height: 200px;
+  border-radius: 15px;
+} */

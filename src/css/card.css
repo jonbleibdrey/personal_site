@@ -1,0 +1,31 @@
+.card__div {
+  margin: 100px;
+}
+
+.card__img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  object-fit: contain;
+  border-radius: 50px;
+  box-shadow: -9px 10px 15px 7px #ccc;
+}
+
+.card__info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.card__title {
+  font-size: 24 px;
+  margin: 0px;
+}
+
+.card__subTitle {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.card__aTag {
+  color: black;
+}
