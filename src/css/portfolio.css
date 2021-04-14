@@ -29,20 +29,12 @@
   font-size: 40px;
 }
 
-
-.portfolio__cardBody{
-    padding: 4%;
+.portfolio__cardBody {
+  padding: 4%;
 }
 
-/* .portfolio__card {
-  margin: 1%;
-  margin-bottom: 10%;
-  box-shadow: -10px 12px 20px 13px #ccc;
-  border-radius: 15px;
+@media only screen and (max-device-width: 480px) {
+  .portfolio__header {
+    font-size: x-large;
+  }
 }
-
-.portfolio__cardImg {
-  max-height: 400px;
-  min-height: 200px;
-  border-radius: 15px;
-} */

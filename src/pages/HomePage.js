@@ -15,7 +15,7 @@ function HomePage(props) {
           text={props.text}
         />
         <Row className="py-1">
-          <Col sm={12} lg={12}>
+          <Col xs={12} lg={12}>
             <Clickable />
           </Col>
         </Row>

@@ -16,10 +16,10 @@ function AboutPage(props) {
         </Content>
         <Container>
           <Row>
-            <Col xs={6} lg={6}>
+            <Col xs={12} lg={6}>
               <InformationAbout />
             </Col>
-            <Col xs={6} lg={6}>
+            <Col xs={12} lg={6}>
               <LogoFile />
             </Col>
           </Row>

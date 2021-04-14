@@ -56,7 +56,7 @@ class ContactPage extends Component {
       <div id="contactPage" className="contact__completeDiv">
         <div className="contact__div">
           <Row className="justify-content-center py-5">
-            <Col sm={7} lg={10}>
+            <Col xs={10} lg={10}>
               <div className="contact__header">Contact</div>
               <Form onSubmit={this.handleSubmit}>
                 <Form.Group>

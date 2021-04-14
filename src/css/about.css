@@ -53,3 +53,19 @@
 .about__img1 {
   margin: 4%;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .about__logoDiv {
+    background-color: white;
+    font-size: 4vw;
+  }
+
+  .about__liTag {
+    font-size: 5vw;
+    margin-left: 20%;
+  }
+
+  .about__content {
+    font-size: x-large;
+  }
+}

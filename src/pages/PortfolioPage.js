@@ -14,10 +14,10 @@ const PortfolioPage = (props) => {
         <Container>
           <CardDeck>
             <Row>
-              <Col xs={6} lg={6}>
+              <Col xs={12} lg={6}>
                 <PortfolioCard />
               </Col>
-              <Col xs={6} lg={6}>
+              <Col xs={12} lg={6}>
                 <PortfolioCard2 />
               </Col>
             </Row>

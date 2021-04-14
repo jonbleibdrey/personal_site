@@ -5,9 +5,7 @@ const LogoFile = () => {
   return (
     <div>
       <ul className="about__ulTag">
-        <div>
-          <h1>Languages</h1>
-        </div>
+        <div className="about__logoDiv">Languages</div>
         <li className="about__liTag">
           <img
             align="center"
@@ -40,9 +38,7 @@ const LogoFile = () => {
         </li>
       </ul>
       <ul className="about__ulTag">
-        <div>
-          <h1>Style</h1>
-        </div>
+        <div className="about__logoDiv">Style</div>
         <li className="about__liTag">
           <img
             align="center"
@@ -75,9 +71,7 @@ const LogoFile = () => {
         </li>
       </ul>
       <ul className="about__ulTag">
-        <div>
-          <h1>Others</h1>
-        </div>
+        <div className="about__logoDiv">Others</div>
         <li className="about__liTag">
           {" "}
           <img

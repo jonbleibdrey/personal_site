@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import NavBar from "./components/NavBar";
+import "../src/css/App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -41,7 +42,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <div style={{ backgroundColor: "#e9e6eb", padding: "20px" }}>
+          <div className="app__div">
             <NavBar />
             <Switch>
               <Route
