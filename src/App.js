@@ -21,7 +21,7 @@ class App extends React.Component {
         { title: "Portfolio", path: "/portfolio" },
       ],
       home: {
-        title: "Websites you can touch.",
+        title: "Websites you want to touch.",
         subTitle: "My name is Jonathan Bleibdrey",
         text:
           " I like the minimalist look because it's simple, useful, and gets to the point.",
