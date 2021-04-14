@@ -3,30 +3,19 @@ import HomeText from "../components/HomeText";
 import Carousel from "../components/Carousel";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "../App.css";
+import "../css/home.css";
 
 function HomePage(props) {
   return (
-    <div id="homePage" style={{ padding: "2%" }}>
-      <div
-        style={{
-          color: "black",
-          margin: "5%",
-          marginBottom: "5%",
-          fontFamily: "monospace",
-          boxShadow: "-30px 40px 11px 40px #ccc",
-          borderRadius: "50px",
-          backgroundColor: "white",
-          wordWrap:"break-word"
-        }}
-      >
+    <div id="homePage" className="home__completeDiv">
+      <div className="home__div">
         <HomeText
           title={props.title}
           subTitle={props.subTitle}
           text={props.text}
         />
-        <Row className="justify-content-center py-1">
-          <Col xs={12}>
+        <Row className="py-1">
+          <Col sm={12} lg={12}>
             <Carousel />
           </Col>
         </Row>

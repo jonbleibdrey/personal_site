@@ -1,0 +1,14 @@
+.home__completeDiv {
+  padding: 2%;
+}
+
+.home__div {
+  color: black;
+  margin: 5%;
+  margin-bottom: 5%;
+  font-family: monospace;
+  box-shadow: -30px 40px 11px 40px #ccc;
+  border-radius: 50px;
+  background-color: white;
+  word-wrap: break-word;
+}
