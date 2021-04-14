@@ -1,0 +1,26 @@
+.contact__completeDiv {
+  padding: 2%;
+}
+
+.contact__div {
+  color: black;
+  margin: 5%;
+  margin-bottom: 10%;
+  font-family: monospace;
+  box-shadow: -30px 41px 11px 40px #ccc;
+  border-radius: 53px;
+  margin-top: -5%;
+  background-color: white;
+}
+
+.contact__header {
+  color: black;
+  background-color: white;
+  margin: 5%;
+  padding: 10%;
+  margin-bottom: 10%;
+  font-family: monospace;
+  box-shadow: -10px 17px 20px 15px #ccc;
+  border-radius: 20px;
+  font-size: 40px;
+}

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-
 import emailjs from "emailjs-com";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import "../css/contact.css";
 
 class ContactPage extends Component {
   constructor(props) {
@@ -53,36 +53,11 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div id="contactPage" style={{ padding: "2%" }}>
-        <div
-          style={{
-            color: "black",
-            margin: "5%",
-            marginBottom: "10%",
-            fontFamily: "monospace",
-            boxShadow: "-30px 41px 11px 40px #ccc",
-            borderRadius: "53px",
-            marginTop: "-5%",
-            backgroundColor: "white",
-          }}
-        >
+      <div id="contactPage" className="contact__completeDiv">
+        <div className="contact__div">
           <Row className="justify-content-center py-5">
-            <Col xs={7} lg={9}>
-              <div
-                style={{
-                  color: "black",
-                  backgroundColor: "white",
-                  margin: "5%",
-                  padding: "10%",
-                  marginBottom: "10%",
-                  fontFamily: "monospace",
-                  boxShadow: "-10px 17px 20px 15px #ccc",
-                  borderRadius: "20px",
-                  fontSize: "40px",
-                }}
-              >
-                Contact
-              </div>
+            <Col sm={7} lg={10}>
+              <div className="contact__header">Contact</div>
               <Form onSubmit={this.handleSubmit}>
                 <Form.Group>
                   <Form.Label htmlFor="full-name">Full Name</Form.Label>
