@@ -14,16 +14,32 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col className="p-0" md={3} sm={12}>
-            <a href="https://twitter.com/jonbleibdrey">
+            <a
+              href="https://twitter.com/jonbleibdrey"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               <AiOutlineTwitter className="footer__logo" />
             </a>
-            <a href="https://www.facebook.com/jbleibdrey/">
+            <a
+              href="https://www.facebook.com/jbleibdrey/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               <AiFillFacebook className="footer__logo" />
             </a>
-            <a href="http://www.instagram.com/johnnyb.exploration">
+            <a
+              href="http://www.instagram.com/johnnyb.exploration"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               <AiFillInstagram className="footer__logo" />
             </a>
-            <a href="https://www.linkedin.com/in/jonathan-bleibdrey-4032171b9/">
+            <a
+              href="https://www.linkedin.com/in/jonathan-bleibdrey-4032171b9/"
+              target="blank"
+              rel="noopener noreferrer"
+            >
               <AiFillLinkedin className="footer__logo" />
             </a>
           </Col>
