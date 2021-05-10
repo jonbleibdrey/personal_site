@@ -17,3 +17,9 @@
   color: black;
   font-size: 40px;
 }
+@media only screen and (max-width: 600px) {
+  #navBar__header {
+    font-family: monospace;
+    font-size: 40px;
+  }
+}

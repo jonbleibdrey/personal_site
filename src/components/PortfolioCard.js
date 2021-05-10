@@ -2,20 +2,22 @@ import React from "react";
 import Robot from "../assets/images/robot.png";
 import President from "../assets/images/president.png";
 import Google from "../assets/images/google.png";
-import ReadByHumans from "../assets/images/readByHumans.png";
+import YumYum from "../assets/images/yumyum.png";
 import { Card } from "react-bootstrap";
 import "../css/portfolio.css";
 
 const PortfolioCard = () => {
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <Card
         className="portfolio__card"
         style={{
           margin: "1%",
+          marginTop: "10%",
           marginBottom: "10%",
           boxShadow: "-10px 12px 20px 13px #ccc",
           borderRadius: "15px",
+          paddingBottom:"5%"
         }}
         //   could not style with css
       >
@@ -26,23 +28,23 @@ const PortfolioCard = () => {
         >
           <Card.Img
             variant="top"
-            src={ReadByHumans}
+            src={YumYum}
             alt="Read By Humans"
             style={{
-              maxHeight: "400px",
-              minHeight: "200px",
+              maxHeight: "300px",
+              minHeight: "150px",
               borderRadius: "15px",
+              
             }}
             //   could not style with css
           />
         </a>
         <Card.Body className="portfolio__cardBody">
-          <Card.Title>Read By Humans</Card.Title>
+          <Card.Title>Yum Yum Fresh</Card.Title>
           <Card.Text>
-            Created a site to search for any book from Google book API. Built
-            with react and google API, used bootstrap and common css for
-            styling. Used npm smooth scroll for one continous page. Used Axios
-            for my fetch calls as well.
+            A site to search for Produce in your local area. Built with react,
+            geolocation, and ruby backend, used bootstrap and common css for
+            styling. Used npm fil card.
           </Card.Text>
         </Card.Body>
       </Card>

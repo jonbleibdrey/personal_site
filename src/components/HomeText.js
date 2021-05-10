@@ -10,14 +10,19 @@ function HomeText(props) {
       <Container>
         <Row className="ml-4">
           <Col xs={12} lg={12}>
+            <div class="typewriter">
+              <div class="typewriter-text">
+
             {props.title && (
               <h1
-                className="display-3 font-weight-bolder ml-5"
-                id="homeText__div"
+              className="display-3 font-weight-bolder ml-5"
+              id="homeText__div"
               >
                 {props.title}
               </h1>
             )}
+            </div>
+          </div>
             <br />
             <br />
             {props.subTitle && (
