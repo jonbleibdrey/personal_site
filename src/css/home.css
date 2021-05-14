@@ -23,6 +23,15 @@
   font-family: monospace;
   word-wrap: break-word;
   }
+  .typewriter {
+    font-family: Courier, monospace;
+  }
+
+  .typewriter-text {
+    white-space: inherit !important;
+    width: 15rem;
+    height: 5rem;
+  }
 
 }
 
