@@ -3,7 +3,7 @@ import { Jumbotron } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Jon from "../assets/images/jon.jpg"
+import Jon from "../assets/images/jon.jpg";
 
 function HomeText(props) {
   return (
@@ -13,17 +13,16 @@ function HomeText(props) {
           <Col xs={12} lg={12}>
             <div class="typewriter">
               <div class="typewriter-text">
-            {props.title && (
-              <h1
-              className="display-3 font-weight-bolder ml-5"
-              id="homeText__div"
-              
-              >
-                {props.title}
-              </h1>
-            )}
+                {props.title && (
+                  <h1
+                    className="display-3 font-weight-bolder ml-5"
+                    id="homeText__div"
+                  >
+                    {props.title}
+                  </h1>
+                )}
+              </div>
             </div>
-          </div>
             <br />
             <br />
             {props.subTitle && (
@@ -39,9 +38,18 @@ function HomeText(props) {
               </h3>
             )}
             <div>
-              <img style={{height:"30rem",width:"40rem",marginLeft:"15rem", marginTop:"5rem"}} src={Jon} alt="my face"/> 
-             <h4 style={{marginLeft:"30rem"}}>That's me!</h4>
-              <br/>
+              <img
+                style={{
+                  height: "30rem",
+                  width: "40rem",
+                  marginLeft: "15rem",
+                  marginTop: "5rem",
+                }}
+                src={Jon}
+                alt="my face"
+              />
+              <h4 style={{ marginLeft: "30rem" }}>That's me!</h4>
+              <br />
             </div>
           </Col>
         </Row>

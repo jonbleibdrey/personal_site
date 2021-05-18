@@ -25,8 +25,7 @@ export class Clickable extends Component {
           title: "Linked in",
           subTitle: "Credentials.",
           imgSrc: linkedin,
-          link:
-            "https://www.linkedin.com/mwlite/in/jonathan-bleibdrey-4032171b9",
+          link: "https://www.linkedin.com/mwlite/in/jonathan-bleibdrey-4032171b9",
           selected: false,
         },
         {
@@ -36,7 +35,7 @@ export class Clickable extends Component {
           imgSrc: Medium,
           link: "https://jonbleibdrey.medium.com/",
           selected: false,
-        }
+        },
       ],
     };
   }
