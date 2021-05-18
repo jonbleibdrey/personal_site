@@ -3,6 +3,7 @@ import { Jumbotron } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Jon from "../assets/images/jon.jpg"
 
 function HomeText(props) {
   return (
@@ -37,6 +38,11 @@ function HomeText(props) {
                 {props.text}
               </h3>
             )}
+            <div>
+              <img style={{height:"30rem",width:"40rem",marginLeft:"15rem", marginTop:"5rem"}} src={Jon} alt="my face"/> 
+             <h4 style={{marginLeft:"30rem"}}>That's me!</h4>
+              <br/>
+            </div>
           </Col>
         </Row>
       </Container>

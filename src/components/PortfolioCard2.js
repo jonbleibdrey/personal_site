@@ -3,7 +3,6 @@ import { Card } from "react-bootstrap";
 import FoodTruck from "../assets/images/foodtruck.png";
 import Journal from "../assets/images/journal.png";
 import Todo from "../assets/images/todo.png";
-import Jon from "../assets/images/jon.PNG";
 import ReadByHumans from "../assets/images/readByHumans.png";
 
 const PortfolioCard2 = () => {
@@ -158,43 +157,6 @@ const PortfolioCard2 = () => {
             web framework. I built a journal application for managing users
             journals and if you wanted to share with other people you could do
             that also.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card
-        style={{
-          margin: "1%",
-          marginBottom: "10%",
-          boxShadow: "-10px 12px 20px 13px #ccc",
-          borderRadius: "15px",
-        }}
-        //   could not style with css
-      >
-        <a
-          href="https://github.com/jonbleibdrey"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Card.Img
-            variant="top"
-            src={Jon}
-            alt="Me"
-            style={{
-              maxHeight: "400px",
-              minHeight: "200px",
-              borderRadius: "15px",
-            }}
-            //   could not style with css
-          />
-        </a>
-        <Card.Body className="portfolio__cardBody">
-          <Card.Title>Check out my github</Card.Title>
-          <Card.Text>
-            As i grow I remember to enjoy the journey as much as the outcome. I
-            keep building to show people you can be creative and smart. During
-            the time of reading this I might not have the best sites but thats
-            not the point, the point was i enjoyed myself whiling doing it.
           </Card.Text>
         </Card.Body>
       </Card>

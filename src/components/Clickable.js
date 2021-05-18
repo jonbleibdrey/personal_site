@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import linkedin from "../assets/images/linkedin.PNG";
 import github from "../assets/images/github.PNG";
-import Jon from "../assets/images/jon.PNG";
 import Medium from "../assets/images/medium.png";
 import Card from "./Card";
 import Container from "react-bootstrap/Container";
@@ -37,15 +36,7 @@ export class Clickable extends Component {
           imgSrc: Medium,
           link: "https://jonbleibdrey.medium.com/",
           selected: false,
-        },
-        {
-          id: 3,
-          title: "Facebook",
-          subTitle: "Social Media.",
-          imgSrc: Jon,
-          link: "https://www.facebook.com/jbleibdrey/",
-          selected: false,
-        },
+        }
       ],
     };
   }
