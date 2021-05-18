@@ -12,11 +12,11 @@ function HomeText(props) {
           <Col xs={12} lg={12}>
             <div class="typewriter">
               <div class="typewriter-text">
-
             {props.title && (
               <h1
               className="display-3 font-weight-bolder ml-5"
               id="homeText__div"
+              
               >
                 {props.title}
               </h1>
