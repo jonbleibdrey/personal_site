@@ -1,22 +1,21 @@
 import React from "react";
 import CardInfo from "../components/CardInfo";
 
-function Card(props) {
+function Card({item, id, title, subTitle,imgSrc,link,selected}) {
   return (
     <div
       className="d-inline-block card__div"
-      onClick={(e) => props.click(props.item)}
     >
       <img
         className="card__img"
-        src={props.item.imgSrc}
-        alt={props.item.imgSrc}
+        src={imgSrc}
+        alt={imgSrc}
       />
-      {props.item.selected && (
+      {selected && (
         <CardInfo
-          title={props.item.title}
-          subTitle={props.item.subTitle}
-          link={props.item.link}
+          title={title}
+          subTitle={subTitle}
+          link={link}
         />
       )}
     </div>

@@ -3,8 +3,6 @@ import linkedin from "../assets/images/linkedin.PNG";
 import github from "../assets/images/github.PNG";
 import Medium from "../assets/images/medium.png";
 import Card from "./Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import "../css/card.css";
 
 export class Clickable extends Component {
@@ -40,40 +38,20 @@ export class Clickable extends Component {
     };
   }
 
-  handleCardClick = (id) => {
-    let items = [...this.state.items];
-    items[id].selected = items[id].selected ? false : true;
-
-    items.forEach((item) => {
-      if (item.id !== id) {
-        item.selected = false;
-      }
-    });
-
-    this.setState({
-      items,
-    });
-  };
-
-  makeItems = (items) => {
-    return items.map((item) => {
-      return (
-        <Card
-          item={item}
-          click={(e) => this.handleCardClick(item.id, e)}
-          key={item.id}
-        />
-      );
-    });
-  };
-
   render() {
     return (
-      <Container fluid={true}>
-        <Row className="justify-content-around">
-          {this.makeItems(this.state.items)}
-        </Row>
-      </Container>
+      <div>
+        <Card
+          item={this.state.item}
+          id={this.state.id}
+          title={this.state.title}
+          subTitle={this.state.subTitle}
+          imgSrc={this.state.imgSrc}
+          link={this.state.link}
+          selected={this.state.selected}
+          key={this.state.item.id}
+        />
+      </div>
     );
   }
 }
