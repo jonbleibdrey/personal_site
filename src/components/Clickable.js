@@ -41,16 +41,16 @@ export class Clickable extends Component {
   render() {
     return (
       <div>
-        <Card
-          item={this.state.item}
-          id={this.state.id}
-          title={this.state.title}
-          subTitle={this.state.subTitle}
-          imgSrc={this.state.imgSrc}
-          link={this.state.link}
-          selected={this.state.selected}
-          key={this.state.item.id}
-        />
+        {this.state.items.map((e) => (
+          <Card
+            item={e.items}
+            title={e.title}
+            subTitle={e.subTitle}
+            imgSrc={e.imgSrc}
+            link={e.link}
+            selected={e.selected}
+          />
+        ))}
       </div>
     );
   }

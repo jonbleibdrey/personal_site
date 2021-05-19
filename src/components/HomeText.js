@@ -44,12 +44,20 @@ function HomeText(props) {
                   width: "40rem",
                   marginLeft: "15rem",
                   marginTop: "5rem",
-                  borderRadius:"5rem"
+                  borderRadius: "5rem",
                 }}
                 src={Jon}
                 alt="my face"
               />
-              <h4 style={{ marginLeft: "30rem", marginTop:"5rem", marginBottom:"-9rem" }}>That's me!</h4>
+              <h4
+                style={{
+                  marginLeft: "30rem",
+                  marginTop: "5rem",
+                  marginBottom: "-9rem",
+                }}
+              >
+                That's me!
+              </h4>
               <br />
             </div>
           </Col>
