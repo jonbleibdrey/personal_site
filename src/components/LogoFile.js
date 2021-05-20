@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/about.css";
 
 const LogoFile = () => {
-  const [imgTag, setImgTag] = useState([
+  const [imgTag] = useState([
     {
       src1: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png",
       src2: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
@@ -24,6 +24,9 @@ const LogoFile = () => {
       src3: "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
     },
   ]);
+
+
+
   return (
     <div>
       <ul className="about__ulTag">
