@@ -29,7 +29,7 @@ function Footer() {
               <AiFillFacebook className="footer__logo" />
             </a>
             <a
-              href="http://www.instagram.com/johnnyb.exploration"
+              href="https://www.instagram.com/ournaturalstateofbeing/"
               target="blank"
               rel="noopener noreferrer"
             >
