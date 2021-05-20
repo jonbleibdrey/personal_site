@@ -1,8 +1,6 @@
 import React from "react";
 import HomeText from "../components/HomeText";
 import Clickable from "../components/Clickable";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import "../css/home.css";
 
 function HomePage(props) {
