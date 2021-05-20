@@ -43,12 +43,8 @@ export class Clickable extends Component {
       <div>
         {this.state.items.map((e) => (
           <Card
-            item={e.items}
-            title={e.title}
-            subTitle={e.subTitle}
             imgSrc={e.imgSrc}
             link={e.link}
-            selected={e.selected}
           />
         ))}
       </div>
