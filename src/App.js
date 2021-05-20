@@ -9,6 +9,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import NavBar from "./components/NavBar";
 import "../src/css/App.css";
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -54,7 +55,7 @@ class App extends React.Component {
               />
             </Switch>
             <AboutPage name="aboutPage" />
-            <PortfolioPage name="portfolioPage " />
+            <PortfolioPage name="portfolioPage"/>
             <ContactPage name="contactPage" />
             <Footer />
           </div>
