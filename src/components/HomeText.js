@@ -39,22 +39,12 @@ function HomeText(props) {
             )}
             <div>
               <img
-                style={{
-                  height: "30rem",
-                  width: "40rem",
-                  marginLeft: "15rem",
-                  marginTop: "5rem",
-                  borderRadius: "5rem",
-                }}
+              className="home__img"
                 src={Jon}
                 alt="my face"
               />
               <h4
-                style={{
-                  marginLeft: "30rem",
-                  marginTop: "5rem",
-                  marginBottom: "-9rem",
-                }}
+              className="home__h4"
               >
                 That's me!
               </h4>

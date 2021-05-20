@@ -40,7 +40,7 @@ export class Clickable extends Component {
 
   render() {
     return (
-      <div>
+      <div className="click__div">
         {this.state.items.map((e) => (
           <Card
             imgSrc={e.imgSrc}

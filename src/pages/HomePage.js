@@ -14,11 +14,9 @@ function HomePage(props) {
           subTitle={props.subTitle}
           text={props.text}
         />
-        <Row className="py-1">
-          <Col xs={12} lg={12}>
+        <div >
             <Clickable />
-          </Col>
-        </Row>
+        </div>
       </div>
     </div>
   );
