@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Footer from "./components/Footer";
@@ -9,11 +9,9 @@ import PortfolioPage from "./pages/PortfolioPage";
 import NavBar from "./components/NavBar";
 import "../src/css/App.css";
 
-
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+const App = () => {
+  const [mainInfo, setMainInfo] = useState({
+    info: {
       title: "Jonathan Bleibdrey",
       headerLinks: [
         { title: "Home", path: "/" },
@@ -35,34 +33,32 @@ class App extends React.Component {
       portfolio: {
         title: "Check out my projects.",
       },
-    };
-  }
+    },
+  });
 
-  render() {
-    return (
-      <Router>
-        <Container className="p-0" fluid={true}>
-          <div className="app__div">
-            <NavBar />
-            <Switch>
-              <Routers
-                homeTitle={this.state.home.title}
-                homeSubTitle={this.state.home.subTitle}
-                homeText={this.state.home.text}
-                aboutTitle={this.state.about.title}
-                contactTitle={this.state.contact.title}
-                portTitle={this.state.portfolio.title}
-              />
-            </Switch>
-            <AboutPage name="aboutPage" />
-            <PortfolioPage name="portfolioPage"/>
-            <ContactPage name="contactPage" />
-            <Footer />
-          </div>
-        </Container>
-      </Router>
-    );
-  }
-}
+  return (
+    <Router>
+      <Container className="p-0" fluid={true}>
+        <div className="app__div">
+          <NavBar />
+          <Switch>
+            <Routers
+              homeTitle={mainInfo.info.home.title}
+              homeSubTitle={mainInfo.info.home.subTitle}
+              homeText={mainInfo.info.home.text}
+              aboutTitle={mainInfo.info.about.title}
+              contactTitle={mainInfo.info.contact.title}
+              portTitle={mainInfo.info.portfolio.title}
+            />
+          </Switch>
+          <AboutPage name="aboutPage" />
+          <PortfolioPage name="portfolioPage" />
+          <ContactPage name="contactPage" />
+          <Footer />
+        </div>
+      </Container>
+    </Router>
+  );
+};
 
 export default App;

@@ -3,15 +3,11 @@ import HomeText from "../components/HomeText";
 import Clickable from "../components/Clickable";
 import "../css/home.css";
 
-function HomePage(props) {
+function HomePage({ title, subTitle, text }) {
   return (
     <div id="homePage" className="home__completeDiv">
       <div className="home__div">
-        <HomeText
-          title={props.title}
-          subTitle={props.subTitle}
-          text={props.text}
-        />
+        <HomeText title={title} subTitle={subTitle} text={text} />
         <div>
           <Clickable />
         </div>

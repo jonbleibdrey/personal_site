@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jon from "../assets/images/jon.jpg";
 
-function HomeText(props) {
+function HomeText({ title, subTitle, text }) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid">
       <Container>
@@ -13,28 +13,28 @@ function HomeText(props) {
           <Col xs={12} lg={12}>
             <div class="typewriter">
               <div class="typewriter-text">
-                {props.title && (
+                {title && (
                   <h1
                     className="display-3 font-weight-bolder ml-5"
                     id="homeText__div"
                   >
-                    {props.title}
+                    {title}
                   </h1>
                 )}
               </div>
             </div>
             <br />
             <br />
-            {props.subTitle && (
+            {subTitle && (
               <h3 className="font-weight-bold ml-5" id="homeText__div">
-                {props.subTitle}{" "}
+                {subTitle}{" "}
               </h3>
             )}
             <br />
             <br />
-            {props.text && (
+            {text && (
               <h3 className=" font-weight-light ml-5" id="homeText__div">
-                {props.text}
+                {text}
               </h3>
             )}
             <div>
