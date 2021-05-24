@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, CardDeck, Row, Col } from "react-bootstrap";
+import { Container, CardDeck } from "react-bootstrap";
 import PortfolioCard from "../components/PortfolioCard";
-import PortfolioCard2 from "../components/PortfolioCard2";
 import "../css/portfolio.css";
 
 const PortfolioPage = () => {
@@ -13,14 +12,7 @@ const PortfolioPage = () => {
         </Container>
         <Container>
           <CardDeck>
-            <Row>
-              <Col xs={12} lg={6}>
-                <PortfolioCard />
-              </Col>
-              <Col xs={12} lg={6}>
-                <PortfolioCard2 />
-              </Col>
-            </Row>
+            <PortfolioCard />
           </CardDeck>
         </Container>
       </div>
