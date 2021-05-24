@@ -4,7 +4,7 @@ import PortfolioCard from "../components/PortfolioCard";
 import PortfolioCard2 from "../components/PortfolioCard2";
 import "../css/portfolio.css";
 
-const PortfolioPage = (props) => {
+const PortfolioPage = () => {
   return (
     <div id="portfolioPage" className="portfolio__completeDiv">
       <div className="portfolio__div">
