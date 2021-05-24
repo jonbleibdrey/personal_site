@@ -35,7 +35,7 @@ const Clickable = () => {
     ],
   });
 
-  console.log(setLinks)
+  console.log(setLinks);
 
   return (
     <div className="click__div">

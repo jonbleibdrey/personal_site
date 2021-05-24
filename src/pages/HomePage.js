@@ -12,8 +12,8 @@ function HomePage(props) {
           subTitle={props.subTitle}
           text={props.text}
         />
-        <div >
-            <Clickable />
+        <div>
+          <Clickable />
         </div>
       </div>
     </div>

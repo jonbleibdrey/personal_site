@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import FoodTruck from "../assets/images/foodtruck.png";
 import Journal from "../assets/images/journal.png";
@@ -6,45 +6,53 @@ import Todo from "../assets/images/todo.png";
 import ReadByHumans from "../assets/images/readByHumans.png";
 
 const PortfolioCard2 = () => {
+  const [cardInfo, setCardInfo] = useState({
+    info: [
+      {
+        link: "https://blissful-northcutt-caae64.netlify.app/",
+        img: `${Todo}`,
+        imgText: "Read By Humans",
+        text: " Created a simple site for a todo list. Built with react, javascript, and common css for styling. wanted to use mostly hooks to make this come alive.",
+      },
+      {},
+      {},
+    ],
+  });
+
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <Card
-        className="portfolio__card"
-        style={{
-          margin: "1%",
-          marginBottom: "10%",
-          paddingBottom: "5%",
-          boxShadow: "-10px 12px 20px 13px #ccc",
-          borderRadius: "15px",
-        }}
-        //   could not style with css
-      >
-        <a
-          href="https://blissful-northcutt-caae64.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
+      
+      {cardInfo.info.map((info) => (
+        <Card
+          className="portfolio__card"
+          style={{
+            margin: "1%",
+            marginBottom: "10%",
+            paddingBottom: "5%",
+            boxShadow: "-10px 12px 20px 13px #ccc",
+            borderRadius: "15px",
+          }}
+          //   could not style with css
         >
-          <Card.Img
-            variant="top"
-            src={Todo}
-            alt="Read By Humans"
-            style={{
-              maxHeight: "400px",
-              minHeight: "200px",
-              borderRadius: "15px",
-            }}
-            //   could not style with css
-          />
-        </a>
-        <Card.Body className="portfolio__cardBody">
-          <Card.Title>Read By Humans</Card.Title>
-          <Card.Text>
-            Created a simple site for a todo list. Built with react, javascript,
-            and common css for styling. wanted to use mostly hooks to make this
-            come alive.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+          <a href={info.link} target="_blank" rel="noreferrer">
+            <Card.Img
+              variant="top"
+              src={info.img}
+              alt={info.imgText}
+              style={{
+                maxHeight: "400px",
+                minHeight: "200px",
+                borderRadius: "15px",
+              }}
+              //   could not style with css
+            />
+          </a>
+          <Card.Body className="portfolio__cardBody">
+            <Card.Title>{info.imgText}</Card.Title>
+            <Card.Text>{info.text}</Card.Text>
+          </Card.Body>
+        </Card>
+      ))}
 
       <Card
         className="portfolio__card"

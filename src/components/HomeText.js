@@ -38,16 +38,8 @@ function HomeText(props) {
               </h3>
             )}
             <div>
-              <img
-              className="home__img"
-                src={Jon}
-                alt="my face"
-              />
-              <h4
-              className="home__h4"
-              >
-                That's me!
-              </h4>
+              <img className="home__img" src={Jon} alt="my face" />
+              <h4 className="home__h4">That's me!</h4>
               <br />
             </div>
           </Col>
