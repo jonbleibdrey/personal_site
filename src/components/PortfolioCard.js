@@ -13,7 +13,7 @@ const PortfolioCard = () => {
   const [cardInfo, setCardInfo] = useState({
     info: [
       {
-        link: "https://eloquent-benz-ba9740.netlify.app/",
+        link: "https://yumyumfresh.netlify.app/",
         img: `${YumYum}`,
         imgText: "Yum Yum Fresh",
         text: "  A site to search for Produce in your local area. Built with react, geolocation, and ruby backend, used bootstrap and common css for styling. Used npm fil card and so much more.",

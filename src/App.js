@@ -36,6 +36,8 @@ const App = () => {
     },
   });
 
+  console.log(setMainInfo)
+
   return (
     <Router>
       <Container className="p-0" fluid={true}>
