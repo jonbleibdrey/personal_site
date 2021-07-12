@@ -8,10 +8,17 @@ import Robot from "../assets/images/robot.png";
 import President from "../assets/images/president.png";
 import Google from "../assets/images/google.png";
 import YumYum from "../assets/images/yumyum.png";
+import LookUp from "../assets/images/lookUp.png";
 
 const PortfolioCard = () => {
   const [cardInfo, setCardInfo] = useState({
     info: [
+      {
+        link: "https://affectionate-agnesi-a20650.netlify.app/",
+        img: `${LookUp}`,
+        imgText: "Weather Site",
+        text: "  Made a weather site, it automatically find your location. Built with react, geolocation, and Open Weather API, used bootstrap and common css for styling.",
+      },
       {
         link: "https://yumyumfresh.netlify.app/",
         img: `${YumYum}`,
