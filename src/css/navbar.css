@@ -61,7 +61,7 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: rgb(98, 125, 182) 2px solid;
+  border-bottom: rgb(255, 255, 255) 2px solid;
 }
 
 .navbar ul {
