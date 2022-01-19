@@ -37,6 +37,8 @@ const InformationAbout = () => {
       </h3>
       <br />
       <h3>
+        suck my balls!
+        
         When I'm not learning something new, chances are I'm creating some type
         of art, shooting archery, and I also dabble in photography. Which you
         can find{" "}
