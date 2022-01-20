@@ -1,5 +1,6 @@
 import React from "react";
 import HeroPage from "./components/HeroPage";
+import Icons from "./components/Icons";
 import NavBar from "./components/NavBar";
 import "./css/utilities.css"
 
@@ -13,6 +14,9 @@ const App = () => {
      <NavBar/>
      <HeroPage/>
    </header>
+   <main>
+     <Icons/>
+   </main>
  </div>
   );
 };
