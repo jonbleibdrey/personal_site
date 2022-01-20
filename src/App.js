@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./components/About";
 import HeroPage from "./components/HeroPage";
 import Icons from "./components/Icons";
 import NavBar from "./components/NavBar";
@@ -16,6 +17,7 @@ const App = () => {
    </header>
    <main>
      <Icons/>
+     <About/>
    </main>
  </div>
   );

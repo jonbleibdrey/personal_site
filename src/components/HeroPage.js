@@ -9,6 +9,7 @@ const HeroPage = () => {
       <a
         href="https://www.linkedin.com/in/jonathan-bleibdrey-4032171b9/"
         target="_blank"
+        rel="noreferrer"
         className="btn"
       >
         <i className="fas fa-chevron-right"></i> Read More

@@ -50,10 +50,9 @@ img {
 }
 
 .icons i {
-  background-color: rosybrown;
+  background-color: rgb(224, 165, 131);
   color: #fff;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
 }
-
