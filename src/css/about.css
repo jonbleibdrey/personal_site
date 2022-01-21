@@ -1,7 +1,7 @@
-/* This is for fonts */
+/* just for fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
-/* start off css */
+/* css code to start off with  */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -38,23 +38,12 @@ img {
   width: 100%;
 }
 
-/* icons */
-#about p{
-  max-width: 500px;
-}
-.icons {
-  padding: 20px;
+@media (max-width: 768px) {
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
 }
 
-.icons h3 {
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.icons i {
-  background-color: rgb(224, 165, 131);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
