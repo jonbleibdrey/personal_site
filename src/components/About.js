@@ -1,6 +1,6 @@
-import React from 'react';
-import "../css/about.css"
-import buddha from "../assets/images/buddha.jpeg"
+import React from "react";
+import "../css/about.css";
+import buddha from "../assets/images/buddha.jpeg";
 
 const About = () => {
   return (
@@ -16,20 +16,25 @@ const About = () => {
             <h4>I am what you are looking for.</h4>
             <h2>I get things done!</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
-              officia, ex sint veniam accusamus nostrum facere voluptatum nisi
-              tempore sunt voluptatibus praesentium cupiditate molestias
-              debitis laboriosam vitae explicabo accusantium! Voluptatibus.
+              I am a capricorn with a strong sense of direction, I have a work
+              ethic that no one can compare too, and Im reliable.
+              <br />
+              Link below for github information.
             </p>
-            <a href="/" class="btn btn-outline">
+            <a
+              href="https://github.com/jonbleibdrey"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-outline"
+            >
               <i class="fas fa-chevron"></i>
-              Read More
+              Github Here
             </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default About;

@@ -3,6 +3,7 @@ import About from "./components/About";
 import HeroPage from "./components/HeroPage";
 import Icons from "./components/Icons";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import "./css/utilities.css"
 
 // import { BrowserRouter as Router, Switch } from "react-router-dom";
@@ -18,6 +19,7 @@ const App = () => {
    <main>
      <Icons/>
      <About/>
+     <Projects/>
    </main>
  </div>
   );
