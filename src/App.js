@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+import Blog from "./components/Blog";
 import HeroPage from "./components/HeroPage";
 import Icons from "./components/Icons";
 import NavBar from "./components/NavBar";
@@ -20,6 +21,7 @@ const App = () => {
      <Icons/>
      <About/>
      <Projects/>
+     <Blog/>
    </main>
  </div>
   );
