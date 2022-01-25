@@ -4,15 +4,15 @@ import buddha from "../assets/images/buddha.jpeg";
 
 const About = () => {
   return (
-    <section class="solutions flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
+    <section className="solutions flex-columns">
+      <div className="row">
+        <div className="column">
+          <div className="column-1">
             <img src={buddha} alt="buddha" />
           </div>
         </div>
-        <div class="column">
-          <div class="column-2 bg-primary">
+        <div className="column">
+          <div className="column-2 bg-primary">
             <h4>I am what you are looking for.</h4>
             <h2>I get things done!</h2>
             <p>
@@ -25,9 +25,9 @@ const About = () => {
               href="https://github.com/jonbleibdrey"
               target="_blank"
               rel="noreferrer"
-              class="btn btn-outline"
+              className="btn btn-outline"
             >
-              <i class="fas fa-chevron"></i>
+              <i className="fas fa-chevron"></i>
               Github Here
             </a>
           </div>

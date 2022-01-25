@@ -6,7 +6,7 @@ const Icons = () => {
     <section id="about" className="icons bg-light">
       <div className="flex-items">
         <div>
-          <i class="fa-solid fa-user-group fa-2x"></i>
+          <i className="fa-solid fa-user-group fa-2x"></i>
           <div>
             <h3>Team Player</h3>
             <p>
@@ -17,7 +17,7 @@ const Icons = () => {
           </div>
         </div>
         <div>
-          <i class="fa-solid fa-person-running fa-2x"></i>
+          <i className="fa-solid fa-person-running fa-2x"></i>
           <div>
             <h3>Multi Tasker</h3>
             <p>
@@ -27,7 +27,7 @@ const Icons = () => {
           </div>
         </div>
         <div>
-          <i class="fa-solid fa-spray-can-sparkles fa-2x"></i>
+          <i className="fa-solid fa-spray-can-sparkles fa-2x"></i>
           <div>
             <h3>Creative Problem Solver</h3>
             <p>

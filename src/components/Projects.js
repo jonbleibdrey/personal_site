@@ -11,8 +11,8 @@ import FoodTruck from "../assets/images/foodtruck.png";
 
 const Projects = () => {
   return (
-    <section id="cases" class="cases flex-grid section-padding">
-      <header class="section-header">
+    <section id="cases" className="cases flex-grid section-padding">
+      <header className="section-header">
         <h4>What I've worked on...</h4>
         <h2>Portfolio</h2>
         <p>
@@ -20,8 +20,8 @@ const Projects = () => {
           new projects, and I also remember to keep it light.
         </p>
       </header>
-      <div class="row">
-        <div class="column">
+      <div className="row">
+        <div className="column">
           <a
             href="https://affectionate-agnesi-a20650.netlify.app/"
             target="_blank"
@@ -37,7 +37,7 @@ const Projects = () => {
             <img src={YumYum} alt=" yum yum" />
           </a>
         </div>
-        <div class="column">
+        <div className="column">
           <a
             href="https://blissful-northcutt-caae64.netlify.app/"
             target="_blank"
@@ -53,7 +53,7 @@ const Projects = () => {
             <img src={ReadByHumans} alt="read by humans" />
           </a>
         </div>
-        <div class="column">
+        <div className="column">
           <a href="https://fake-fun.web.app" target="_blank" rel="noreferrer">
             <img src={Google} alt=" google" />
           </a>
@@ -65,7 +65,7 @@ const Projects = () => {
             <img src={President} alt="president" />
           </a>
         </div>
-        <div class="column">
+        <div className="column">
           <a
             href="https://zen-hopper-ce8178.netlify.app"
             target="_blank"

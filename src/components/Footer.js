@@ -3,35 +3,35 @@ import "../css/footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer bg-dark">
-      <div class="social">
+    <footer className="footer bg-dark">
+      <div className="social">
         <a
           href="https://www.facebook.com/jbleibdrey/"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-facebook fa-2x"></i>
+          <i className="fab fa-facebook fa-2x"></i>
         </a>
         <a
           href="https://mobile.twitter.com/jonbleibdrey"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-twitter fa-2x"></i>
+          <i className="fab fa-twitter fa-2x"></i>
         </a>
         <a
           href="https://www.instagram.com/ournaturalstateofbeing/"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-instagram fa-2x"></i>
+          <i className="fab fa-instagram fa-2x"></i>
         </a>
         <a
           href="https://github.com/jonbleibdrey"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-github fa-2x"></i>
+          <i className="fab fa-github fa-2x"></i>
         </a>
       </div>
       <p>Copyright &copy; 2021 - Jonathan Bleibdrey</p>
