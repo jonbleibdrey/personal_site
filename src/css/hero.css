@@ -1,38 +1,6 @@
 /* this is only to get fonts from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
-body {
-  font-family: "Open Sans", sans-serif;
-  background: #fff;
-  color: #333;
-  line-height: 1.6;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-h1,
-h2 {
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-p {
-  margin: 10px 0;
-}
-
-img {
-  width: 100%;
-}
-
-/* hero*/
-
 .hero {
   background: url("../assets/images/apple.jpeg") no-repeat center center/cover;
   height: 100vh;
