@@ -31,7 +31,8 @@ const Icons = () => {
           <div>
             <h3>Creative Problem Solver</h3>
             <p>
-              I love to solve problems, It teaches me peace. Life is about tackling the hard stuff, without losing your cool.
+              I love to solve problems, It teaches me peace. Life is about
+              tackling the hard stuff, without losing your cool.
             </p>
           </div>
         </div>

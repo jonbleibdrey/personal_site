@@ -1,5 +1,5 @@
 /* just for fonts */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 /* css code to start off with  */
 * {
@@ -36,6 +36,9 @@ p {
 
 img {
   width: 100%;
+}
+.solutions h2 { 
+  font-family: 'Permanent Marker', cursive;
 }
 
 @media (max-width: 768px) {

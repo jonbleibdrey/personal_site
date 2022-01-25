@@ -11,7 +11,7 @@ import FoodTruck from "../assets/images/foodtruck.png";
 
 const Projects = () => {
   return (
-    <section id="cases" className="cases flex-grid section-padding">
+    <section id="portfolio" className="cases flex-grid section-padding">
       <header className="section-header">
         <h4>What I've worked on...</h4>
         <h2>Portfolio</h2>
@@ -78,7 +78,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={FoodTruck} alt="" />
+            <img src={FoodTruck} alt=" foodtruck" />
           </a>
         </div>
       </div>

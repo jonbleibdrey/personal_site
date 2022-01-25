@@ -3,7 +3,7 @@ import "../css/hero.css";
 
 const HeroPage = () => {
   return (
-    <div className="content">
+    <div id="hero" className="content">
       <h1>I have the Power to create world's</h1>
       <p>"what goes up, must come down"</p>
       <a
@@ -12,7 +12,7 @@ const HeroPage = () => {
         rel="noreferrer"
         className="btn"
       >
-        <i className="fas fa-chevron-right"></i> Read More
+        <i className="fas fa-chevron-right"></i> More About Me
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/about.css";
-import buddha from "../assets/images/buddha.jpeg";
+import Buddha from "../assets/images/buddha.jpeg";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className="row">
         <div className="column">
           <div className="column-1">
-            <img src={buddha} alt="buddha" />
+            <img src={Buddha} alt="buddha" />
           </div>
         </div>
         <div className="column">

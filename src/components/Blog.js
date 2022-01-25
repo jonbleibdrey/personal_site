@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/blog.css";
 import Radio from "../assets/images/radio.jpeg";
 
 const Blog = () => {
