@@ -25,14 +25,14 @@ const Projects = () => {
           <a
             href="https://affectionate-agnesi-a20650.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={Lookup} alt="look up" />
           </a>
           <a
             href="https://yumyumfresh.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={YumYum} alt=" yum yum" />
           </a>
@@ -41,26 +41,26 @@ const Projects = () => {
           <a
             href="https://blissful-northcutt-caae64.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={Todo} alt="todo" />
           </a>
           <a
             href="https://eloquent-benz-ba9740.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ReadByHumans} alt="read by humans" />
           </a>
         </div>
         <div className="column">
-          <a href="https://fake-fun.web.app" target="_blank" rel="noreferrer">
+          <a href="https://fake-fun.web.app" target="_blank" rel="noopener noreferrer">
             <img src={Google} alt=" google" />
           </a>
           <a
             href="https://tinder-clone-9d53e.web.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={President} alt="president" />
           </a>
@@ -69,14 +69,14 @@ const Projects = () => {
           <a
             href="https://zen-hopper-ce8178.netlify.app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={Robot} alt="robot" />
           </a>
           <a
             href="https://github.com/jonbleibdrey/rails_food_truck_review"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={FoodTruck} alt=" foodtruck" />
           </a>

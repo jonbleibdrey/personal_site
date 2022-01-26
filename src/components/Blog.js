@@ -24,7 +24,7 @@ const Blog = () => {
             <a
               href="https://jonbleibdrey.medium.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn btn-outline"
             >
               <i className="fas fa-chevron"></i>

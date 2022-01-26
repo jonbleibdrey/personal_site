@@ -24,7 +24,7 @@ const About = () => {
             <a
               href="https://github.com/jonbleibdrey"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn btn-outline"
             >
               <i className="fas fa-chevron"></i>

@@ -8,28 +8,28 @@ const Footer = () => {
         <a
           href="https://www.facebook.com/jbleibdrey/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-facebook fa-2x"></i>
         </a>
         <a
           href="https://mobile.twitter.com/jonbleibdrey"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-twitter fa-2x"></i>
         </a>
         <a
           href="https://www.instagram.com/ournaturalstateofbeing/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-instagram fa-2x"></i>
         </a>
         <a
           href="https://github.com/jonbleibdrey"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-github fa-2x"></i>
         </a>
