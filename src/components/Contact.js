@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Elephant from "../assets/images/elephant.jpeg";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import "../css/contact.css";
 
 const Contact = () => {
