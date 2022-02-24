@@ -4,7 +4,7 @@ import "../css/hero.css";
 const HeroPage = () => {
   return (
     <div id="hero" className="content">
-      <h1>I have the Power to create world's</h1>
+      <h1>I have the Power to create worlds</h1>
       <p>"what goes up, must come down"</p>
       <a
         href="https://www.linkedin.com/in/jonathan-bleibdrey-4032171b9/"
